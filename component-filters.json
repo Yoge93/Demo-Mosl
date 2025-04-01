@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "newSection"
     ]
   },
   {
@@ -38,5 +39,9 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "newSection",
+    "components": ["text"]
   }
 ]
