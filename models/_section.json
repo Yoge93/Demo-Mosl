@@ -31,8 +31,19 @@
           "label": "Style",
           "options": [
             {
-              "name": "Highlight",
-              "value": "highlight"
+              "name": "section1",
+              "value": "section1"
+            }, {
+              "name": "section2",
+              "value": "section2"
+            },
+            {
+              "name": "section3",
+              "value": "section3"
+            },
+            {
+              "name": "section5",
+              "value": "section5"
             }
           ]
         }
