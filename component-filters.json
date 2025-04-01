@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "navTitle"
+      "navTitle",
+      "headerpartthree"
     ]
   },
   {
@@ -44,6 +45,12 @@
     "id": "navTitle",
     "components": [
       "navTitletext"
+    ]
+  },
+  {
+    "id": "headerpartthree",
+    "components": [
+      "columns"
     ]
   }
 ]
