@@ -90,8 +90,7 @@
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
-                  "filter": "MySection",
-                  "model": "MySection"
+                  "filter": "newSection"
                 }
               }
             }
