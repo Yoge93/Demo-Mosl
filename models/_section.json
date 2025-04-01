@@ -33,6 +33,14 @@
             {
               "name": "Highlight",
               "value": "highlight"
+            },
+            {
+              "name": "Class1",
+              "value": "Class1"
+            },
+            {
+              "name": "Class2",
+              "value": "Class2"
             }
           ]
         }
