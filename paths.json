@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/Demo-Mosl/:/",
-    "/content/Demo-Mosl/configuration:/.helix/config.json",
-    "/content/Demo-Mosl/metadata:/metadata.json"
+    "/content/DemoMosl/:/",
+    "/content/DemoMosl/configuration:/.helix/config.json",
+    "/content/DemoMosl/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/Demo-Mosl/"
+    "/content/DemoMosl/"
   ]
 }
