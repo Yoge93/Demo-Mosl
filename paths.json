@@ -3,7 +3,10 @@
     "/content/DemoMosl/:/",
     "/content/DemoMosl/ashwin:/dropdowncategory.json",
     "/content/DemoMosl/configuration:/.helix/config.json",
-    "/content/DemoMosl/metadata:/metadata.json"
+    "/content/DemoMosl/metadata:/metadata.json",
+    "/content/DemoMosl/:/",
+    "/content/DemoMosl/fragment/SpreadSheet2:/fragment/SpreadSheet2.json"
+    
   ],
   "includes": [
     "/content/DemoMosl/"
