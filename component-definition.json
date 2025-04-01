@@ -79,26 +79,6 @@
       ]
     },
     {
-      "title": "Anurag Section",
-      "id": "anuragSection",
-      "components": [
-        {
-          "title": "My New Section",
-          "id": "newSection",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/section/v1/section",
-                "template": {
-                  "filter": "newSection"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "title": "Blocks",
       "id": "blocks",
       "components": [
