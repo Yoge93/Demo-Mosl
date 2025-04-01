@@ -201,6 +201,21 @@
               }
             }
           }
+        },
+        {
+          "title": "Header Part Three Sub",
+          "id": "headerpartthreesub",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Header Part Three Sub",
+                  "model": "headerpartthreesub"
+                }
+              }
+            }
+          }
         }
       ]
     }

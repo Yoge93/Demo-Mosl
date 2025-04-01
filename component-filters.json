@@ -50,7 +50,16 @@
   {
     "id": "headerpartthree",
     "components": [
-      "columns"
+      "headerpartthreesub"
+    ]
+  },
+  {
+    "id": "headerpartthreesub",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   }
 ]
