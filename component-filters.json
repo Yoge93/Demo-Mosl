@@ -18,7 +18,8 @@
       "fragment",
       "navTitle",
       "headerblock",
-      "carouselhero"
+      "carouselhero",
+      "carouselone"
     ]
   },
   {
@@ -59,6 +60,12 @@
     "id": "carouselhero",
     "components": [
       "hero"
+    ]
+  },
+  {
+    "id": "carouselone",
+    "components": [
+      "card"
     ]
   }
 ]
