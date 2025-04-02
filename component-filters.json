@@ -17,7 +17,7 @@
       "columns",
       "fragment",
       "navTitle",
-      "headerpartthree"
+      "headerblock"
     ]
   },
   {
@@ -48,18 +48,10 @@
     ]
   },
   {
-    "id": "headerpartthree",
+    "id": "headerblock",
     "components": [
-      "headerpartthreesub"
-    ]
-  },
-  {
-    "id": "headerpartthreesub",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
+      "headerblockitem"
     ]
   }
+
 ]
