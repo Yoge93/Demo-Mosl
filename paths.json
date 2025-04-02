@@ -1,7 +1,11 @@
 {
   "mappings": [
     "/content/DemoMosl/:/",
+<<<<<<< HEAD
     "/content/DemoMosl/ashwin/dropdown:/ashwin/dropdown.json",
+=======
+    "/content/DemoMosl/ashwin/dropdowncategory:/dropdowncategory.json",
+>>>>>>> 9385c46b3e8c519b5ad2edfaaf82e72803a7735e
     "/content/DemoMosl/configuration:/.helix/config.json",
     "/content/DemoMosl/metadata:/metadata.json",
     "/content/DemoMosl/:/",

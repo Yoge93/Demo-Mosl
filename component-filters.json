@@ -15,7 +15,10 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "navTitle",
+      "headerblock",
+      "carouselhero"
     ]
   },
   {
@@ -37,6 +40,25 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "navTitle",
+    "components": [
+      "navTitletext"
+    ]
+  },
+  {
+    "id": "headerblock",
+    "components": [
+      "headerblockitem",
+      "column"
+    ]
+  },
+  {
+    "id": "carouselhero",
+    "components": [
+      "hero"
     ]
   }
 ]

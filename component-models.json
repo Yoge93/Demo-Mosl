@@ -114,6 +114,7 @@
             "value": "highlight"
           },
           {
+<<<<<<< HEAD
             "name": "akansha",
             "value": "akansha"
           },          {
@@ -123,6 +124,10 @@
           {
             "name": "rupesh",
             "value": "rupesh"
+=======
+            "name": "CustomHeader",
+            "value": "customheader"
+>>>>>>> 9385c46b3e8c519b5ad2edfaaf82e72803a7735e
           }
         ]
       }
@@ -192,6 +197,41 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
+      },
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "navTitletext",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "headerblockitem",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
       },
       {
         "component": "richtext",
