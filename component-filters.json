@@ -50,7 +50,8 @@
   {
     "id": "headerblock",
     "components": [
-      "headerblockitem"
+      "headerblockitem",
+      "columns"
     ]
   }
 
