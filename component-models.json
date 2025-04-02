@@ -196,7 +196,7 @@
     ]
   },
   {
-    "id": "navTitletexts",
+    "id": "navTitletext",
     "fields": [
       {
         "component": "richtext",
@@ -208,7 +208,7 @@
     ]
   },
   {
-    "id": "headerblockitems",
+    "id": "headerblockitem",
     "fields": [
       {
         "component": "reference",
