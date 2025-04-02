@@ -53,11 +53,5 @@
       "headerblockitem",
       "column"
     ]
-  },
-  {
-    "id": "carouselhero",
-    "components": [
-      "hero"
-    ]
   }
 ]
