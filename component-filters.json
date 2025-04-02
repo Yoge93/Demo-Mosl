@@ -51,7 +51,7 @@
     "id": "headerblock",
     "components": [
       "headerblockitem",
-      "columns"
+      "column"
     ]
   }
 
