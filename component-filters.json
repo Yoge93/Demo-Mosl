@@ -41,6 +41,7 @@
   {
     "id": "important-card",
     "components": [
+      "text",
       "card"
     ]
   },
