@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "navTitle",
-      "headerblock"
+      "headerblock",
+      "carouselhero"
     ]
   },
   {
@@ -52,6 +53,12 @@
     "components": [
       "headerblockitem",
       "column"
+    ]
+  },
+  {
+    "id": "carouselhero",
+    "components": [
+      "hero"
     ]
   }
 ]
