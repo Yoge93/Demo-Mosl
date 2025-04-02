@@ -41,6 +41,10 @@
             {
               "name": "Class2",
               "value": "Class2"
+            },
+            {
+              "name": "CardText",
+              "value": "CardText"
             }
           ]
         }
