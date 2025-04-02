@@ -41,9 +41,9 @@
     ]
   },
   {
-    "id": "navTitle",
+    "id": "NavTitle",
     "components":[
-      "navTitleItem"
+      "NavTitleItem"
     ]
   }
   
