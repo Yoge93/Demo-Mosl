@@ -77,7 +77,8 @@
     "id": "card01",
     "components": [
       "card",
-      "text"
+      "text",
+      "card01texth"
     ]
   }
 ]
