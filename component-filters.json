@@ -38,6 +38,12 @@
     ]
   },
   {
+    "id": "Important-card",
+    "components": [
+      "card"
+    ]
+  },
+  {
     "id": "column",
     "components": [
       "text",
