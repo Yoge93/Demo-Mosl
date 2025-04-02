@@ -158,7 +158,7 @@
           }
         },
         {
-          "title": "NavTitle",
+          "title": "NavTitles",
           "id": "navTitle",
           "plugins": {
             "xwalk": {
@@ -173,7 +173,7 @@
           }
         },
         {
-          "title": "NavTitleText",
+          "title": "NavTitleTexts",
           "id": "navTitletext",
           "plugins": {
             "xwalk": {
@@ -188,7 +188,7 @@
           }
         },
         {
-          "title": "HeaderBlock",
+          "title": "HeaderBlocks",
           "id": "headerblock",
           "plugins": {
             "xwalk": {
@@ -203,7 +203,7 @@
           }
         },
         {
-          "title": "HeaderBlock Item",
+          "title": "HeaderBlock Items",
           "id": "headerblockitem",
           "plugins": {
             "xwalk": {
@@ -218,7 +218,7 @@
           }
         },
         {
-          "title": "Carousel Hero",
+          "title": "Carousel Heros",
           "id": "carouselhero",
           "plugins": {
             "xwalk": {

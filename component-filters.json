@@ -43,20 +43,20 @@
     ]
   },
   {
-    "id": "navTitle",
+    "id": "navTitles",
     "components": [
       "navTitletext"
     ]
   },
   {
-    "id": "headerblock",
+    "id": "headerblocks",
     "components": [
       "headerblockitem",
       "column"
     ]
   },
   {
-    "id": "carouselhero",
+    "id": "carouselheros",
     "components": [
       "hero"
     ]
