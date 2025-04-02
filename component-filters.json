@@ -18,7 +18,8 @@
       "fragment",
       "mySection2",
       "headerBlock",
-      "carousel"
+      "carousel",
+      "card01"
     ]
   },
   {
@@ -70,6 +71,12 @@
     "components": [
       "hero",
       "text"
+    ]
+  },
+  {
+    "id": "card01",
+    "components": [
+      "card"
     ]
   }
 ]
