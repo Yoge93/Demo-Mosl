@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "mySection2",
-      "headerBlock"
+      "headerBlock",
+      "carousel"
     ]
   },
   {
@@ -60,7 +61,15 @@
       "image",
       "button",
       "title",
-      "fragment"
+      "fragment",
+      "hero"
+    ]
+  },
+  {
+    "id": "carousel",
+    "components": [
+      "hero",
+      "text"
     ]
   }
 ]
