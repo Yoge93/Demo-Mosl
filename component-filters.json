@@ -53,7 +53,7 @@
     ]
   },
   {
-    "id": "headerBlock",
+    "id": "headerBlockItem",
     "components": [
       "card",
       "text",
