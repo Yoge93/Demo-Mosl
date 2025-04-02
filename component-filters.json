@@ -15,7 +15,8 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "mySection2"
     ]
   },
   {
@@ -37,6 +38,17 @@
       "image",
       "button",
       "title"
+    ]
+  },
+  {
+    "id": "mySection2",
+    "components": [
+      "card",
+      "text",
+      "image",
+      "button",
+      "title",
+      "fragment"
     ]
   }
 ]
