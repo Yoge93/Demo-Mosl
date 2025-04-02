@@ -16,7 +16,7 @@
       "cards",
       "columns",
       "fragment",
-      "Header"
+      "Hero-banner"
     ]
   },
   {
@@ -29,6 +29,12 @@
     "id": "columns",
     "components": [
       "column"
+    ]
+  },
+  {
+    "id": "Hero-banner",
+    "components": [
+      "hero"
     ]
   },
   {
