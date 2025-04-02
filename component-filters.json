@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "mySection2"
+      "mySection2",
+      "headerBlock"
     ]
   },
   {
@@ -42,6 +43,17 @@
   },
   {
     "id": "mySection2",
+    "components": [
+      "card",
+      "text",
+      "image",
+      "button",
+      "title",
+      "fragment"
+    ]
+  },
+  {
+    "id": "headerBlock",
     "components": [
       "card",
       "text",
