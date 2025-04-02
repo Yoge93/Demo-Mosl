@@ -41,7 +41,7 @@
   {
     "id": "important-card",
     "components": [
-      "text",
+      "headertitle",
       "card"
     ]
   },
