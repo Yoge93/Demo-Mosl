@@ -196,7 +196,7 @@
     ]
   },
   {
-    "id": "navTitleItem",
+    "id": "NavTitleItem",
     "fields": [
       {
         "component": "richtext",
