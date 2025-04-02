@@ -1,0 +1,11 @@
+.card01{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.card01 > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}

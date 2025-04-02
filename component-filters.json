@@ -76,7 +76,8 @@
   {
     "id": "card01",
     "components": [
-      "card"
+      "card",
+      "text"
     ]
   }
 ]
