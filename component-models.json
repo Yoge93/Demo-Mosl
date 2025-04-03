@@ -203,7 +203,7 @@
     ]
   },
   {
-    "id": "Product",
+    "id": "product",
     "fields": [
       {
         "component": "reference",
