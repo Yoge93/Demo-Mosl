@@ -227,7 +227,7 @@
         "valueType": "string"
       },
       {
-        "component": "reference",
+        "component": "Text",
         "name": "col3_imgAlt",
         "value": "",
         "label": "Image Alt",
