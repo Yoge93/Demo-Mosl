@@ -1,7 +1,7 @@
 import Swiper from "../imageSwiper/swiper-bundle-min.js";
 
 export default function decorate(block) {
-  block.classList.add("swiper");
+  document.querySelector(".img-swiper-parent").classList.add("swiper");
   const swiperWrapper = document.createElement("div");
   swiperWrapper.classList.add("swiper-wrapper");
   Array.from(block.children).forEach((e) => {
