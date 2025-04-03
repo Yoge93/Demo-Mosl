@@ -23,13 +23,20 @@
       "headersection",
       "hero-banner",
       "product",
-      "search"
+      "search",
+      "productindex"
     ]
   },
   {
     "id": "hero-banner",
     "components": [
       "hero-banner-item"
+    ]
+  },
+  {
+    "id": "product-index",
+    "components": [
+      "product-index"
     ]
   },
   {

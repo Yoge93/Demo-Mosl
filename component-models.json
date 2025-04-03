@@ -318,5 +318,16 @@
         "label": "Search Here"
       }
     ]
+  },
+  {
+    "id": "productindex",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "productindex",
+        "label": "product index"
+      }
+    ]
   }
 ]
