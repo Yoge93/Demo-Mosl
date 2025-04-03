@@ -203,43 +203,33 @@
     ]
   },
   {
-    "id": "navTitletext",
+    "id": "product",
     "fields": [
       {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "headerblockitem",
-    "fields": [
-      {
-        "component": "reference",
-        "name": "image",
-        "label": "Image",
-        "multi": false
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multiselect field",
+        "valueType": "string",
+        "required": true,
+        "maxSize": 2,
+        "options": [
+          {
+            "name": "Theme",
+            "children": [
+              { "name": "Light", "value": "light" },
+              { "name": "Dark",  "value": "dark" }
+            ]
+          },
+          {
+            "name": "Type",
+            "children": [
+              { "name": "Alpha", "value": "alpha" },
+              { "name": "Beta", "value": "beta" },
+              { "name": "Gamma", "value": "gamma" }
+            ]
+          }
+        ]
       },
-      {
-        "component": "text",
-        "name": "imageAlt",
-        "label": "Alt Text"
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "headersection",
-    "fields": [
       {
         "component": "reference",
         "valueType": "string",
@@ -255,11 +245,66 @@
         "value": ""
       },
       {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Link Text"
+      }
+    ]
+  },
+  {
+    "id": "hero-banner",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multi Select",
+        "valueType": "string",
+        "options": [
+          { "name": "Primary", "value": "primary" },
+          { "name": "Secondary", "value": "secondary" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hero-banner-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "col1_image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "col1_imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
         "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "valueType": "string",
+        "name": "col2_text",
+        "label": "Text"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "col2_link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "col2_linkText",
+        "label": "Link Text"
       }
     ]
   }
