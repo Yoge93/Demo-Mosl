@@ -430,18 +430,11 @@
     "id": "productBanneritem",
     "fields": [
       {
-        "component": "reference",
+        "component": "text",
         "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
       },
       {
         "component": "multiselect",
