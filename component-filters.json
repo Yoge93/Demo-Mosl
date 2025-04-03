@@ -19,7 +19,8 @@
       "navTitle",
       "headerblock",
       "carouselhero",
-      "carouselone"
+      "carouselone",
+      "header-mo"
     ]
   },
   {
@@ -66,6 +67,12 @@
     "id": "carouselone",
     "components": [
       "card"
+    ]
+  },
+  {
+    "id": "header-mo",
+    "components": [
+      "header-mo-item"
     ]
   }
 ]
