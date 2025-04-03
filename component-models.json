@@ -453,5 +453,33 @@
         ]
       }
     ]
+  },
+  {
+    "id": "category",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multi Select",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Category1",
+            "value": "category1"
+          },
+          {
+            "name": "Category2",
+            "value": "category2"
+          }
+        ]
+      }
+    ]
   }
 ]
