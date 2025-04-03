@@ -17,7 +17,8 @@
       "columns",
       "fragment",
       "hero-banner",
-      "important-card"
+      "important-card",
+      "img-click"
     ]
   },
   {
@@ -47,6 +48,15 @@
   },
   {
     "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "img-click",
     "components": [
       "text",
       "image",
