@@ -207,9 +207,30 @@
       },
       {
         "component": "aem-content",
-        "name": "col1_reference",
+        "name": "col2_link",
         "value": "",
-        "label": "Text",
+        "label": "Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col2_linkText",
+        "value": "",
+        "label": "Link Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col3_img",
+        "value": "",
+        "label": "Image Path",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col3_imgAlt",
+        "value": "",
+        "label": "Image Alt",
         "valueType": "string"
       }
     ]
