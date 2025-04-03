@@ -318,5 +318,26 @@
         "label": "Search Here"
       }
     ]
+  },
+  {
+    "id": "productNew",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "search",
+        "label": "Search Here"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multi Select",
+        "valueType": "string",
+        "options": [
+          { "name": "Primary", "value": "primary" },
+          { "name": "Secondary", "value": "secondary" }
+        ]
+      }
+    ]
   }
 ]
