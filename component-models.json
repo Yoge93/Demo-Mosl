@@ -260,6 +260,12 @@
       },
       {
         "component": "richtext",
+        "name": "col2_text",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
         "name": "col3_text",
         "label": "Text",
         "valueType": "string"
