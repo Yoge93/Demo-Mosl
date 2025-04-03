@@ -249,7 +249,7 @@
     ]
   },
   {
-    "id": "hero",
+    "id": "img-click",
     "fields": [
       {
         "component": "reference",
