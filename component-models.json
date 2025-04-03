@@ -256,5 +256,41 @@
         "label": "Link Text"
       }
     ]
+  },
+  {
+    "id": "hero-banner-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "col1_image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "col1_imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "col2_text",
+        "label": "Text"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "col2_link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "clo2_linkText",
+        "label": "Link Text"
+      }
+    ]
   }
 ]

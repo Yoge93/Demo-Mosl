@@ -21,6 +21,12 @@
     ]
   },
   {
+    "id": "hero-banner",
+    "components": [
+      "hero-banner-item"
+    ]
+  },
+  {
     "id": "cards",
     "components": [
       "card"
