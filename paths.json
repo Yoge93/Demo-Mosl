@@ -3,6 +3,7 @@
     "/content/DemoMosl/:/",
     "/content/DemoMosl/ashwin/dropdown:/ashwin/dropdown.json",
     "/content/DemoMosl/ashwin/my-sheet:/ashwin/my-sheet.json",
+    "/content/DemoMosl/my-sheeter:/my-sheeter.json",
     "/content/DemoMosl/configuration:/.helix/config.json",
     "/content/DemoMosl/metadata:/metadata.json",
     "/content/DemoMosl/:/",
