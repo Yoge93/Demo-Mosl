@@ -256,3 +256,9 @@ main .section.highlight {
   padding: 40px 0;
 }
 
+/* CardText */
+.cardtext .block .columns-img-col img{
+  width: 70%;
+  cursor: pointer;
+  
+}
