@@ -254,14 +254,14 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "col1_image",
+        "name": "col1_imag",
         "label": "Image",
         "multi": false
       },
       {
         "component": "text",
         "valueType": "string",
-        "name": "col1_imageAlt",
+        "name": "col1_imag",
         "label": "Alt",
         "value": ""
       },
@@ -279,7 +279,7 @@
         "label": "AEM Content Picker",
         "valueType": "string",
         "validation": {
-          "rootPath": "/content/refresh"
+          "rootPath": "AllAssets/adobe-summit-apk-generator"
         }
       }
     ]
