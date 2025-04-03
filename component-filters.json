@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "nav-title"
+      "nav-title",
+      "motilal-nav"
     ]
   },
   {
@@ -44,6 +45,12 @@
     "id": "nav-title",
     "components":[
       "nav-titleItem"
+    ]
+  },
+  {
+    "id": "motilal-nav",
+    "components":[
+      "motilal-navItem"
     ]
   }
   

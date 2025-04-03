@@ -203,7 +203,9 @@
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [{ "name": "Image Swiper Parent", "value": "img-swiper-parent" }]
+        "options": [
+          { "name": "Image Swiper Parent", "value": "img-swiper-parent" }
+        ]
       }
     ]
   },
@@ -242,6 +244,51 @@
         "component": "text",
         "name": "col3_imgAlt",
         "label": "Image Alt",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "motilal-nav",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [{ "name": "Motilal Nav", "value": "motilal-nav" }]
+      }
+    ]
+  },
+  {
+    "id": "motilal-navItem",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "col1_text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col2_img",
+        "value": "",
+        "label": "Icon Path",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "col2_link",
+        "value": "",
+        "label": "Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col2_linkText",
+        "value": "",
+        "label": "Link Text",
         "valueType": "string"
       }
     ]
