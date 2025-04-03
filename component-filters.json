@@ -89,5 +89,11 @@
     "components": [
       "productBanneritem"
     ]
+  },
+  {
+    "id": "search",
+    "components": [
+      "text"
+    ]
   }
 ]
