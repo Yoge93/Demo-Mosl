@@ -16,7 +16,7 @@
       "cards",
       "columns",
       "fragment",
-      "NavTitle"
+      "nav-title"
     ]
   },
   {
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "NavTitle",
+    "id": "nav-title",
     "components":[
       "nav-titleItem"
     ]
