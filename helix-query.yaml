@@ -9,7 +9,7 @@ indices:
     target: /query-index.json
     properties:
       title:
-        select: head > og:title
+        select: head > meta[name="og:title"]
         value: attribute(el, "content")
       lastModified:
         select: none
