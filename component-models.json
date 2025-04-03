@@ -445,7 +445,7 @@
       },
       {
         "component": "multiselect",
-        "name": "multiselect",
+        "name": "classes",
         "label": "Multi Select",
         "valueType": "string",
         "options": [
