@@ -8,7 +8,7 @@ indices:
       - '/**.json'
     target: /query-index.json
     properties:
-      robots:
+      title:
         select: head > title
         value: attribute(el, "content")
       lastModified:
