@@ -208,7 +208,7 @@
     ]
   },
   {
-    "id": "Navcolumn",
+    "id": "NavTitle",
     "fields": [
       {
         "component": "text",
