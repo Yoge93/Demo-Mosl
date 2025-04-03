@@ -76,14 +76,5 @@
     "components": [
       "card"
     ]
-  },
-  {
-    "id": "headersection",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
   }
 ]
