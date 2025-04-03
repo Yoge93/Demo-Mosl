@@ -206,6 +206,31 @@
     "id": "product",
     "fields": [
       {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multiselect field",
+        "valueType": "string",
+        "required": true,
+        "maxSize": 2,
+        "options": [
+          {
+            "name": "Theme",
+            "children": [
+              { "name": "Light", "value": "light" },
+              { "name": "Dark",  "value": "dark" }
+            ]
+          },
+          {
+            "name": "Type",
+            "children": [
+              { "name": "Alpha", "value": "alpha" },
+              { "name": "Beta", "value": "beta" },
+              { "name": "Gamma", "value": "gamma" }
+            ]
+          }
+        ]
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
