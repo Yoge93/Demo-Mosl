@@ -427,7 +427,7 @@
     ]
   },
   {
-    "id": "productBanneritem",
+    "id": "productBanner",
     "fields": [
       {
         "component": "text",
