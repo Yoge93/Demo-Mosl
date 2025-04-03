@@ -143,7 +143,7 @@
           }
         },
         {
-          "title": "navTitle",
+          "title": "navtitle",
           "id": "nav-title",
           "plugins": {
             "xwalk": {
@@ -159,7 +159,7 @@
           }
         },
         {
-          "title": "navTitleItem",
+          "title": "navtitleitem",
           "id": "nav-titleItem",
           "plugins": {
             "xwalk": {
