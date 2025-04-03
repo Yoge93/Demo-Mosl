@@ -43,7 +43,7 @@
   {
     "id": "NavTitle",
     "components":[
-      "NavTitleItem"
+      "nav-titleItem"
     ]
   }
   

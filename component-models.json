@@ -196,8 +196,29 @@
     ]
   },
   {
-    "id": "NavTitleItem",
+    "id": "nav-title",
     "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [{ "name": "Image Swiper Parent", "value": "img-swiper-parent" }]
+      }
+    ]
+  },
+  {
+    "id": "nav-titleItem",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Image Swiper", "value": "img-swiper" }
+        ]
+      },
       {
         "component": "richtext",
         "name": "col1_text",
