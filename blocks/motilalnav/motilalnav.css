@@ -1,0 +1,79 @@
+.motilal-oswal {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1.5fr;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    grid-template-areas:
+        "logo1 logo2 logo3"
+        "logo1 logo4 logo5";
+}
+
+.motilal-oswal div {
+    padding: 0;
+    margin: 0;
+}
+
+.motilal-oswal .default-content-wrapper {
+    grid-area: logo1;
+    position: relative;
+}
+
+.default-content-wrapper p {
+    width: 124px;
+    height: 72px;
+    margin: 0;
+}
+
+.default-content-wrapper .button-container {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 150px;
+    height: 92px;
+    opacity: 0;
+}
+
+.button-container .button {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.motilalnav-wrapper:nth-of-type(1) {
+    display: flex;
+    grid-area: logo2;
+    width: 100%;
+}
+
+.motilalnav-wrapper:nth-of-type(2) {
+    grid-area: logo3;
+    width: 100%;
+}
+
+.motilalnav-wrapper:nth-of-type(2) .motilal-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.motilalnav-wrapper:nth-of-type(3) {
+    grid-area: logo4;
+    width: 100%;
+}
+
+.motilalnav-wrapper:nth-of-type(3) .motilal-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.motilalnav-wrapper:nth-of-type(4) {
+    grid-area: logo5;
+    width: 100%;
+}
+
+.motilalnav-wrapper:nth-of-type(4) .motilalnav {
+    display: flex;
+    justify-content: end;
+}
