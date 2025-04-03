@@ -1,4 +1,4 @@
-import Swiper from "./swiper-bundle-min.js";
+import Swiper from "../swiper-bundle-min.js";
 
 export default function decorate(block) {
   document.querySelector(".img-swiper-parent").classList.add("swiper");
