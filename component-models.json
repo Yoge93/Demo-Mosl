@@ -442,6 +442,22 @@
         "value": "",
         "label": "Text",
         "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "multiselect",
+        "label": "Multi Select",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "ProductClass 1",
+            "value": "productclass 1"
+          },
+          {
+            "name": "ProductClass 2",
+            "value": "productclass 2"
+          }
+        ]
       }
     ]
   }
