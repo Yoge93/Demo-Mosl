@@ -307,5 +307,16 @@
         "label": "Link Text"
       }
     ]
+  },
+  {
+    "id": "search",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "search",
+        "label": "Search Here"
+      }
+    ]
   }
 ]
