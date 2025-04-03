@@ -260,7 +260,7 @@
       },
       {
         "component": "richtext",
-        "name": "col2_text",
+        "name": "col2_texter",
         "label": "Text",
         "valueType": "string"
       },
