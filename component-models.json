@@ -206,5 +206,24 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "Navcolumn",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "columns",
+        "value": "",
+        "label": "Columns"
+      },
+      {
+        "component": "text",
+        "valueType": "number",
+        "name": "rows",
+        "value": "",
+        "label": "Rows"
+      }
+    ]
   }
 ]
