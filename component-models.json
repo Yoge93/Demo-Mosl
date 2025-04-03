@@ -229,7 +229,6 @@
       {
         "component": "text",
         "name": "col3_imgAlt",
-        "value": "",
         "label": "Image Alt",
         "valueType": "string"
       }
