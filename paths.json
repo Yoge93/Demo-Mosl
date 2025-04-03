@@ -2,11 +2,11 @@
   "mappings": [
     "/content/DemoMosl/:/",
     "/content/DemoMosl/ashwin/dropdown:/ashwin/dropdown.json",
+    "/content/DemoMosl/ashwin/demo:/ashwin/demo.json",
     "/content/DemoMosl/configuration:/.helix/config.json",
     "/content/DemoMosl/metadata:/metadata.json",
     "/content/DemoMosl/:/",
     "/content/DemoMosl/saving-account-form:/saving-account-form.json"
-    
   ],
   "includes": [
     "/content/DemoMosl/"
