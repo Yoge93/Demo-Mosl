@@ -1,9 +1,7 @@
 [
   {
     "id": "main",
-    "components": [
-      "section"
-    ]
+    "components": ["section"]
   },
   {
     "id": "section",
@@ -22,36 +20,36 @@
   },
   {
     "id": "cards",
-    "components": [
-      "card"
-    ]
+    "components": ["card"]
   },
   {
     "id": "columns",
-    "components": [
-      "column"
-    ]
+    "components": ["column"]
   },
   {
     "id": "column",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
+    "components": ["text", "image", "button", "title"]
   },
   {
     "id": "nav-title",
-    "components":[
-      "nav-titleItem"
-    ]
+    "components": ["nav-titleItem"]
   },
   {
     "id": "motilal-nav",
-    "components":[
-      "motilal-navItem"
+    "components": [
+      {
+        "id": "motilal-subnav",
+        "authorable": true
+      }
+    ]
+  },
+  {
+    "id": "motilal-subnav",
+    "components": [
+      {
+        "id": "motilal-navItem",
+        "authorable": true
+      }
     ]
   }
-  
 ]
