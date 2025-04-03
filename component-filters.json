@@ -82,5 +82,11 @@
       "card",
       "text"
     ]
+  },
+  {
+    "id": "productBanner",
+    "components": [
+      "productBanneritem"
+    ]
   }
 ]
