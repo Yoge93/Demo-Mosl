@@ -281,3 +281,7 @@ main .section.highlight {
   margin-left: auto;
   padding: 0;
 }
+
+.customheader {
+  display: flex;
+}

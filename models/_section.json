@@ -36,6 +36,9 @@
             },
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bc3d92ba53eec0754625b05fa31d1c3aaf33e11c
               "name": "akansha",
               "value": "akansha"
             },          {
@@ -45,10 +48,13 @@
             {
               "name": "rupesh",
               "value": "rupesh"
+<<<<<<< HEAD
 =======
               "name": "CustomHeader",
               "value": "customheader"
 >>>>>>> 9385c46b3e8c519b5ad2edfaaf82e72803a7735e
+=======
+>>>>>>> bc3d92ba53eec0754625b05fa31d1c3aaf33e11c
             }
           ]
         }
