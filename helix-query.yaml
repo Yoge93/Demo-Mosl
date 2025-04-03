@@ -9,7 +9,7 @@ indices:
     target: /query-index.json
     properties:
       robots:
-        select: head > meta[name="title"]
+        select: head > title
         value: attribute(el, "content")
       lastModified:
         select: none
