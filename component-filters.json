@@ -54,14 +54,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "img-click",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
   }
 ]
