@@ -1,4 +1,7 @@
 @import url(../imageSwiper/swiper-bundle-min.css);
+.img-swiper-parent{
+    background-color: red;
+}
 .swiper {
     width: 600px;
     height: 300px;
