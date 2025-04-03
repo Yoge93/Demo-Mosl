@@ -44,7 +44,10 @@
     "id": "NavTitle",
     "components":[
       "NavTitleItem",
-      "Navcolumn"
+      {
+        "id": "Navcolumn",
+        "authorable": true
+      }
     ]
   }
   
