@@ -288,7 +288,7 @@
       },
       {
         "component": "text",
-        "name": "clo2_linkText",
+        "name": "col2_linkText",
         "label": "Link Text"
       }
     ]
