@@ -7673,5 +7673,5 @@ var Swiper = (function () {
 //# sourceMappingURL=swiper-bundle.min.js.map
 
 export default function(el, config){
-return Swiper(el,config);
+return new Swiper(el,config);
 }
