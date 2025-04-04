@@ -456,6 +456,13 @@
         "label": "Select Class",
         "valueType": "string",
         "options": [{ "name": "Mutual Fund Button", "value": "mf-btn" }]
+      },
+      {
+        "component": "text",
+        "name": "Mutual Fund Title",
+        "value": "",
+        "label": "MF Btn Title",
+        "valueType": "string"
       }
     ]
   },
@@ -464,14 +471,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "col1_mfBtnTitle",
-        "value": "",
-        "label": "MF Btn Title",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "col2_mfBtnTitleItem",
+        "name": "Mutual Fund Title Item",
         "value": "",
         "label": "MF Btn Title Item",
         "valueType": "string"
