@@ -135,7 +135,7 @@
     ]
   },
   {
-    "id": "card",
+    "id": "card", 
     "fields": [
       {
         "component": "reference",
