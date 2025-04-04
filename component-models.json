@@ -470,7 +470,7 @@
     "id": "mf-button-item",
     "fields": [
       {
-        "component": "text",
+        "component": "richtext",
         "name": "Mutual Fund Title Item",
         "value": "",
         "label": "MF Btn Title Item",
