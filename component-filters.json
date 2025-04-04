@@ -19,7 +19,14 @@
       "hero-banner",
       "product",
       "search",
-      "productNew"
+      "productNew",
+      "teaser-cards"
+    ]
+  },
+  {
+    "id": "teaser-cards",
+    "components": [
+      "teaser-card"
     ]
   },
   {
