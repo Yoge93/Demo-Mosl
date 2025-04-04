@@ -34,3 +34,7 @@ export default function decorate(block){
     },
   });
 }
+
+//document.getElementsByClassName('img-click')[0].addEventListener("click", function() {
+//   location.href='www.google.com'
+// },false); 

@@ -252,6 +252,27 @@
     "id": "img-click",
     "fields": [
       {
+        "component":"multiselect",
+        "valueType":"string",
+        "name":"classes",
+        "label":"Style",
+        "options":[
+          {
+            "name":"Content Type",
+            "children":[
+              {
+                "name":"primary",
+                "value":"primary"
+              },
+              {
+                "name":"secondary",
+                "value":"secondary"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "col1_imag",
@@ -279,7 +300,7 @@
         "label": "AEM Content Picker",
         "valueType": "string",
         "validation": {
-          "rootPath": "AllAssets/adobe-summit-apk-generator"
+          "rootPath": "/content"
         }
       }
     ]
