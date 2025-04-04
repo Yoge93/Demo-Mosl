@@ -493,7 +493,7 @@
         "options": [
           {
             "name": "Content type",
-            "options": [
+            "children": [
               {
                 "name": " Primary",
                 "value": "primary"
