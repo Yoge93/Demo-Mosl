@@ -126,6 +126,11 @@
             "value": "rupesh"
           }
         ]
+      },
+      {
+        "component": "text",
+        "name": "Tab Title",
+        "label": "Tab Title"
       }
     ]
   },
