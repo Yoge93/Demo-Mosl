@@ -62,6 +62,12 @@
     "components":[
       "motilal-navItem"
     ]
+  },
+  {
+    "id": "mf-button",
+    "components":[
+      "mf-button-item"
+    ]
   }
   
 ]
