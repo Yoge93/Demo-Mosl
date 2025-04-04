@@ -16,8 +16,18 @@
       "cards",
       "columns",
       "fragment",
+      "hero-banner",
+      "product",
+      "search",
+      "productNew",
       "nav-title",
       "motilal-nav"
+    ]
+  },
+  {
+    "id": "hero-banner",
+    "components": [
+      "hero-banner-item"
     ]
   },
   {

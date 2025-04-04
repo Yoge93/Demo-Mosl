@@ -1,0 +1,51 @@
+.carousel-one-wrapper {
+    width: 100%; /* Ensure the wrapper fills available space */
+    overflow: hidden; /* Hide the overflow of the carousel */
+}
+
+.carousel-one {
+    width: 100%;
+}
+
+.carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: smooth; /* Smooth scrolling behavior */
+    gap: 1.2rem;
+    overflow-x: auto; /* Ensure the carousel scrolls horizontally */
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory; /* Ensure the cards snap to place */
+    scrollbar-width: none;
+    animation: slide 10s infinite linear; /* Add the animation for sliding */
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+.card {
+    scroll-snap-align: start; /* Ensure each card snaps into place */
+    border-radius: 30px;
+    min-height: 200px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0; /* Prevent the cards from shrinking */
+}
+
+/* Keyframe animation for auto-sliding */
+@keyframes slide {
+    0% {
+        transform: translateX(0); /* Start at the beginning */
+    }
+    33.33% {
+        transform: translateX(-100%); /* Move to the second card */
+    }
+    66.66% {
+        transform: translateX(-200%); /* Move to the third card */
+    }
+    100% {
+        transform: translateX(0); /* Reset to the first card */
+    }
+}
