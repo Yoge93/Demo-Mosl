@@ -116,6 +116,10 @@
           {
             "name": "Motilal Oswal",
             "value": "motilal-oswal"
+          },
+          {
+            "name": "Motilal Nav",
+            "value": "motilal-nav"
           }
         ]
       }
