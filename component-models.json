@@ -353,6 +353,13 @@
           { "name": "Primary", "value": "primary" },
           { "name": "Secondary", "value": "secondary" }
         ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imagetext",
+        "label": "Alt",
+        "value": ""
       }
     ]
   },
