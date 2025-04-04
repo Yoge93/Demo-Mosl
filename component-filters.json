@@ -24,7 +24,8 @@
       "product",
       "productBanner",
       "search",
-      "category"
+      "category",
+      "teaser"
     ]
   },
   {
@@ -95,6 +96,12 @@
     "id": "search",
     "components": [
       "text"
+    ]
+  },
+  {
+    "id": "teaser",
+    "components": [
+      "teaseritem"
     ]
   }
 ]

@@ -481,5 +481,132 @@
         ]
       }
     ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "multiselect",
+        "valueType": "string",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Content type",
+            "options": [
+              {
+                "name": " Primary",
+                "value": "primary"
+              },
+              {
+                "name": " Secondary",
+                "value": "secondary"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Select Image",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Image Alt",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "teaseritem",
+    "fields": [
+      {
+        "component": "reference",
+        "label": "Select Image",
+        "name": "image",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "Image Alt",
+        "name": "imageAlt",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "Sub Title",
+        "name": "teaserText_title",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "label": "Title Type",
+        "name": "teaserText_titleType",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          }
+        ]
+      },
+      {
+        "component": "richtext",
+        "label": "Description",
+        "name": "teaserText_description",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "label": "Cta 1",
+        "name": "teaserText_cta1",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "Cta 1 Text",
+        "name": "teaserText_cta1Text",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "label": "Cta 2",
+        "name": "teaserText_cta2",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "label": "Cta 2 Text",
+        "name": "teaserText_cta2Text",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "label": "Cta 2 Type",
+        "name": "teaserText_cta2Type",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Primary",
+            "value": "primary"
+          },
+          {
+            "name": "Secondary",
+            "value": "secondary"
+          }
+        ]
+      }
+    ]
   }
 ]
