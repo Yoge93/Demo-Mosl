@@ -249,7 +249,7 @@
       },
       {
         "component": "text",
-        "name": "col1_imagealtText",
+        "name": "col1_imageAlt",
         "label": "Alt Text"
       },
       {
