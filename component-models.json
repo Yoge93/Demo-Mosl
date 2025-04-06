@@ -474,5 +474,18 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "explore-our-products-title",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [{ "name": "Motilal Nav", "value": "motilal-nav" }]
+      }
+    ]
   }
+
 ]
