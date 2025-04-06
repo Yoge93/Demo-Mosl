@@ -511,37 +511,44 @@
     "fields": [
       {
         "component": "aem-content",
-        "name": "Link",
+        "name": "col1_link",
         "value": "",
         "label": "Card Link",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "Link Text",
+        "name": "col1_linkText",
         "value": "",
         "label": "Card Link Text",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "Card Title",
+        "name": "col2_cardtitle",
         "value": "",
         "label": "Card Title",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "Card Para",
+        "name": "col2_cardpara",
         "value": "",
         "label": "Card Para",
         "valueType": "string"
       },
       {
         "component": "reference",
-        "name": "Image Path",
+        "name": "col3_imagepath",
         "value": "",
         "label": "Icon Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col3_imagepathAlt",
+        "value": "",
+        "label": "Icon Alt",
         "valueType": "string"
       }
     ]
