@@ -493,6 +493,58 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "explore-products-right-cards",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [{ "name": "Explore Right Cards", "value": "explore-right-cards" }]
+      }
+    ]
+  },
+  {
+    "id": "explore-right-card",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "Link",
+        "value": "",
+        "label": "Card Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "Link Text",
+        "value": "",
+        "label": "Card Link Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "Card Title",
+        "value": "",
+        "label": "Card Title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "Card Para",
+        "value": "",
+        "label": "Card Para",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "Image Path",
+        "value": "",
+        "label": "Icon Source",
+        "valueType": "string"
+      }
+    ]
   }
 
 ]

@@ -23,7 +23,8 @@
       "nav-title",
       "motilal-nav",
       "mf-button",
-      "explore-our-products-title"
+      "explore-our-products-title",
+      "explore-products-right-cards"
     ]
   },
   {
@@ -69,6 +70,12 @@
     "id": "mf-button",
     "components":[
       "mf-button-item"
+    ]
+  },
+  {
+    "id": "explore-products-right-cards",
+    "components":[
+      "explore-right-card"
     ]
   }
   
