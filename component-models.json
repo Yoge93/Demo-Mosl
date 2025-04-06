@@ -502,7 +502,23 @@
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [{ "name": "Explore Right Cards", "value": "explore-right-cards" }]
+        "options": [
+          { "name": "Explore Right Cards", "value": "explore-right-cards" }
+        ]
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "value": "",
+        "label": "Card Link",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "value": "",
+        "label": "Card Link Text",
+        "valueType": "string"
       }
     ]
   },
@@ -510,43 +526,48 @@
     "id": "explore-right-card",
     "fields": [
       {
-        "component": "aem-content",
-        "name": "col1_link",
-        "value": "",
-        "label": "Card Link",
-        "valueType": "string"
-      },
-      {
         "component": "text",
-        "name": "col1_linkText",
-        "value": "",
-        "label": "Card Link Text",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "col2_cardtitle",
+        "name": "col1_cardtitle",
         "value": "",
         "label": "Card Title",
         "valueType": "string"
       },
       {
+        "component": "select",
+        "name": "titleType",
+        "label": "Card Title Type",
+        "options": [
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          }
+        ]
+      },
+      {
         "component": "text",
-        "name": "col2_cardpara",
+        "name": "col1_cardpara",
         "value": "",
         "label": "Card Para",
         "valueType": "string"
       },
       {
         "component": "reference",
-        "name": "col3_imagepath",
+        "name": "col2_imagepath",
         "value": "",
         "label": "Icon Source",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "col3_imagepathAlt",
+        "name": "col2_imagepathAlt",
         "value": "",
         "label": "Icon Alt",
         "valueType": "string"
