@@ -487,16 +487,18 @@
       },
       {
         "component": "text",
-        "name": "col1_text",
-        "value": "",
-        "label": "Left Title",
-        "valueType": "string"
+        "name": "title",
+        "label": "Title"
       },
       {
         "component": "select",
-        "name": "col1_type",
-        "label": "Left Title Type",
+        "name": "titleType",
+        "label": "Title Type",
         "options": [
+          {
+            "name": "h1",
+            "value": "h1"
+          },
           {
             "name": "h2",
             "value": "h2"
