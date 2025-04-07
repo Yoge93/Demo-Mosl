@@ -1,6 +1,6 @@
 import { loadBlocks } from '../../scripts/lib-franklin.js';
 import { decorateMain } from '../../scripts/scripts.js';
-import SwiperText from '../tabs/swiper-bundle.min.js'
+import SwiperText from '../tabs/swiper-bundle.min.js';
 
 async function generateTabMainBlock(html) {
   const main = document.createElement('main');
@@ -117,30 +117,14 @@ export default async function decorate(block) {
         tempData.appendChild(LeftArrow);
 
         SwiperText(tempData, {
-          // Optional parameters
-          // direction: 'vertical',
           slidesPerView: 3,
           spaceBetween: 10,
           loop: true,
           autoplay: true,
-
-
-          // If we need pagination
-          // pagination: {
-          //   el: paginationWrapper,
-          //   clickable: true,
-          // },
-
-          // // Navigation arrows
           navigation: {
             nextEl: RightArrow,
             prevEl: LeftArrow,
           },
-
-          // // And if we need scrollbar
-          // scrollbar: {
-          //   el: '.swiper-scrollbar',
-          // },
         });
       } catch (error) {
         console.error(error);
