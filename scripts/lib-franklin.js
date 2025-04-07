@@ -608,24 +608,3 @@ export function sampleRUM(checkpoint, data = {}) {
       }
     }
   }
-  
-  /**
-   * Auto initializiation.
-   */
-  function init() {
-    document.body.style.display = 'none';
-    setup();
-    sampleRUM('top');
-  
-    window.addEventListener('load', () => sampleRUM('load'));
-  
-    window.addEventListener('unhandledrejection', (event) => {
-      sampleRUM('error', { source: event.reason.sourceURL, target: event.reason.line });
-    });
-  
-    window.addEventListener('error', (event) => {
-      sampleRUM('error', { source: event.filename, target: event.lineno });
-    });
-  }
-  
-  init();
