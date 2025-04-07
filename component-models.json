@@ -602,20 +602,5 @@
         "valueType": "string"
       }
     ]
-  },
-  {
-    "id": "explore-product",
-    "fields": [
-      {
-        "component": "text",
-        "name": "col1_text",
-        "label": "Title"
-      },
-      {
-        "component": "text",
-        "name": "col2_text",
-        "label": "Title"
-      }
-    ]
   }
 ]
