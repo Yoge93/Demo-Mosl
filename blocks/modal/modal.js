@@ -1,35 +1,73 @@
+import { loadFragment } from '../fragment/fragment.js';
+import {
+  buildBlock, loadBlock, loadCSS,
+} from '../../scripts/aem.js';
 
-/**
- * Creates a modal with id modalId, or if that id already exists, returns the existing modal.
- * To show the modal, call `modal.showModal()`.
- * @param modalId
- * @param createContent Callback called when the modal is first opened; should return html string
- * for the modal content
- * @param addEventListeners Optional callback called when the modal is first opened;
- * should add event listeners to body if needed
- * @returns {Promise<HTMLElement>} The <dialog> element, after loading css
- */
-export default async function getModal(modalId, createContent, addEventListeners) {
-  let dialogElement = document.getElementById(modalId);
-  if (!dialogElement) {
-    dialogElement = document.createElement('dialog');
-    dialogElement.id = modalId;
+import {decorateBlock } from "../../scripts/lib-franklin.js"
 
-    const contentHTML = createContent?.() || '';
+/*
+  This is not a traditional block, so there is no decorate function.
+  Instead, links to a /modals/ path are automatically transformed into a modal.
+  Other blocks can also use the createModal() and openModal() functions.
+*/
 
-    dialogElement.innerHTML = `
-          <button name="close"><span class="close-x"></span></button>
-          ${contentHTML}
-      `;
+export async function createModal(contentNodes) {
+  await loadCSS(`${window.hlx.codeBasePath}/blocks/modal/modal.css`);
+  const dialog = document.createElement('dialog');
+  const dialogContent = document.createElement('div');
+  dialogContent.classList.add('modal-content');
+  dialogContent.append(...contentNodes);
+  dialog.append(dialogContent);
 
-    document.body.appendChild(dialogElement);
+  const closeButton = document.createElement('button');
+  closeButton.classList.add('close-button');
+  closeButton.setAttribute('aria-label', 'Close');
+  closeButton.type = 'button';
+  closeButton.innerHTML = '<span class="icon icon-close"></span>';
+  closeButton.addEventListener('click', () => dialog.close());
+  dialog.prepend(closeButton);
 
-    dialogElement.querySelector('button[name="close"]')
-      .addEventListener('click', () => {
-        dialogElement.close();
-      });
+  const block = buildBlock('modal', '');
+  document.querySelector('main').append(block);
+  decorateBlock(block);
+  await loadBlock(block);
 
-    addEventListeners?.(dialogElement);
-  }
-  return dialogElement;
+  // close on click outside the dialog
+  dialog.addEventListener('click', (e) => {
+    const {
+      left, right, top, bottom,
+    } = dialog.getBoundingClientRect();
+    const { clientX, clientY } = e;
+    if (clientX < left || clientX > right || clientY < top || clientY > bottom) {
+      dialog.close();
+    }
+  });
+
+  dialog.addEventListener('close', () => {
+    document.body.classList.remove('modal-open');
+    block.remove();
+  });
+
+  block.innerHTML = '';
+  block.append(dialog);
+
+  return {
+    block,
+    showModal: () => {
+      dialog.showModal();
+      // reset scroll position
+      setTimeout(() => { dialogContent.scrollTop = 0; }, 0);
+      document.body.classList.add('modal-open');
+    },
+  };
+}
+
+export async function openModal(fragmentUrl) {
+  const path = fragmentUrl.startsWith('http')
+    ? new URL(fragmentUrl, window.location).pathname
+    : fragmentUrl;
+
+  const fragment = await loadFragment(path);
+  const { showModal } = await createModal(fragment.childNodes);
+  showModal();
 }

@@ -1,3 +1,5 @@
+
+
 export default function decorate(block) {
     Array.from(block.children).forEach((row) => {
         row.classList.add("header-container")
@@ -15,7 +17,7 @@ export default function decorate(block) {
     const ul = block.querySelectorAll(".header-container-ul-1 li");
     ul.forEach(li => {
         const option = document.createElement('option');
-        option.value = li.textContent; // Use the text as the value
+        option.value = li.textContent; // Use the text as the valueIM
         option.textContent = li.textContent; // Display the text in the option
         selectDiv.appendChild(option); // Append the option to the <select>
     });
