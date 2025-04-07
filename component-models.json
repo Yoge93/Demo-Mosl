@@ -400,14 +400,26 @@
       {
         "component": "text",
         "valueType": "string",
-        "label": "title"
-      },
+        "label": "title",
+        "name":"text"
+      }
+    ]
+  },
+  {
+    "id": "tab-item",
+    "fields": [
       {
         "component": "text",
         "valueType": "string",
-        "name": "text",
-        "label": "subText",
-        "value": ""
+        "label": "title",
+        "name":"tabtitle"
+      },
+      {
+        "component": "richtext",
+        "name": "tabbody",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
       }
     ]
   }

@@ -1,4 +1,5 @@
 import { openModal } from '../blocks/modal/modal.js';
+import loadFragment from '../blocks/fragment/fragment.js';
 import {
   loadHeader,
   loadFooter,
@@ -70,6 +71,19 @@ function autolinkModals(element) {
   });
 }
 
+function autolinkFragements(element) {
+  element.querySelectorAll('a').forEach(function (origin) {
+    if (origin && origin.href && origin.href.includes('/fragment/')) {
+      const parent = origin.parentElement;
+      const div = document.createElement('div');
+      div.append(origin);
+      parent.append(div);
+      loadFragment(div);
+    }
+  })
+
+}
+
 
 /**
  * Builds all synthetic blocks in a container element.
@@ -128,6 +142,7 @@ async function loadEager(doc) {
  */
 async function loadLazy(doc) {
   autolinkModals(doc);
+  autolinkFragements(doc);
   const main = doc.querySelector('main');
   await loadSections(main);
 
