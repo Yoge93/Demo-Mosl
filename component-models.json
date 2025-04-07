@@ -608,5 +608,24 @@
         ]
       }
     ]
+  },
+  {
+    "id": "header-ru",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "header",
+        "value": "",
+        "label": "Header",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "header",
+        "label": "Rupesh",
+        "value": ""
+      }
+    ]
   }
 ]
