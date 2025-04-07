@@ -276,5 +276,25 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id":"modal",
+    "fields":[
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link"
+      },
+      {
+        "component": "text",
+        "name": "linkText",
+        "label": "Text"
+      },
+      {
+        "component": "text",
+        "name": "linkTitle",
+        "label": "Title"
+      }
+    ]
   }
 ]

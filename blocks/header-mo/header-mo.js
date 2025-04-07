@@ -21,5 +21,7 @@ export default function decorate(block) {
     });
     block.querySelector(".header-container-ul-1").innerHTML = "";
     block.querySelector(".header-container-ul-1").appendChild(selectDiv)
+
+    window.setTimeout(() => import('../tabs/tabs.js'), 500);
     // block.querySelector(".header-container-ul-1 ul li").style.display = "none"
 }
