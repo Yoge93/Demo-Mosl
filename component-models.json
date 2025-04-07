@@ -441,7 +441,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name":"tabtitle"
+        "name":"carouselText "
       }
     ]
   }
