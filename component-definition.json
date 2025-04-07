@@ -384,6 +384,23 @@
               }
             }
           }
+        },
+        {
+          "title": "Header-Ru-Item",
+          "id": "header-ru-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Header-Ru-Item",
+                  "model": "header-ru-item",
+                  "quote": "<p>Think, Ru Item! Think!</p>",
+                  "author": "Rupesh Mahadik"
+                }
+              }
+            }
+          }
         }
       ]
     }

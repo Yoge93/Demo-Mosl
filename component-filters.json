@@ -104,5 +104,11 @@
     "components": [
       "teaseritem"
     ]
+  },
+  {
+    "id": "header-ru",
+    "components": [
+      "header-ru-item"
+    ]
   }
 ]
