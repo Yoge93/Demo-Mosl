@@ -422,5 +422,27 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "carousel-one-item",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "title",
+        "name":"tabtitle"
+      }
+    ]
   }
 ]

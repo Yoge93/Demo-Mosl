@@ -56,6 +56,12 @@
     ]
   },
   {
+    "id": "carousel-one",
+    "components": [
+      "carousel-one-item"
+    ]
+  },
+  {
     "id": "column",
     "components": [
       "text",
