@@ -1,3 +1,93 @@
-.explore-our-products{
-    background-color: red;
+.explore-our-products {
+    display: flex;
+    margin: 100px 0 0;
+    background: rgb(244 245 247 / 1);
+    background: lavender;
+    padding: 80px 104px;
+    align-items: center;
+    /* max-width: 1172px; */
+    width: 100%;
+    margin: 100px auto 0;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.explore-our-products .explore-our-products-title {
+    padding: 0;
+    margin: 0;
+    max-width: 22.87%;
+}
+
+.explore-our-products-title p {
+    font-family: sans-serif;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.explore-our-products .explore-products-right-cards-wrapper {
+    margin: 0;
+    padding: 0;
+    max-width: 63.56%;
+    width: 100%;
+}
+
+.explore-products-right-cards-wrapper .explore-products-right-cards {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.explore-products-right-cards>div {
+    max-width: 49%;
+    width: 100%;
+    height: 101px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+    border-radius: 16px;
+
+}
+
+.explore-products-right-cards>div>div {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.explore-right-cards>div>div .button-container,
+.explore-right-cards>div>div .button-container * {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    opacity: 0;
+}
+
+.explore-right-cards>div div:nth-of-type(2) h3 {
+    margin: 0 0 12px;
+    color: rgb(255 153 102 / 1);
+    font-size: 24px;
+    line-height: 32px;
+    font-family: sans-serif;
+}
+
+.explore-right-cards>div div:nth-of-type(2) p {
+    color: #00000099;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.explore-right-cards>div div:nth-of-type(3) {
+    max-width: 87px;
+    width: 100%;
+    max-height: 87px;
+    height: 100%;
+    display: flex;
+    justify-content: end;
 }
