@@ -488,12 +488,12 @@
       {
         "component": "text",
         "name": "title",
-        "label": "Title"
+        "label": "Left Title"
       },
       {
         "component": "select",
         "name": "titleType",
-        "label": "Title Type",
+        "label": "Left Title Type",
         "options": [
           {
             "name": "h1",
