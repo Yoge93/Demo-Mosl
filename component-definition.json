@@ -264,6 +264,22 @@
               }
             }
           }
+        },
+        {
+          "title": "modal",
+          "id": "modal",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "modal",
+                  "model": "modal",
+                  "filter" : "modal"
+                }
+              }
+            }
+          }
         }
       ]
     }
