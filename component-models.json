@@ -556,14 +556,14 @@
       },
       {
         "component": "text",
-        "name": "col2_cardtitle",
+        "name": "col2_title",
         "value": "",
         "label": "Card Title",
         "valueType": "string"
       },
       {
         "component": "select",
-        "name": "col2_cardtitleType",
+        "name": "col2_titleType",
         "label": "Card Title Type",
         "options": [
           {
@@ -602,6 +602,20 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "explore-product",
+    "fields": [
+      {
+        "component": "text",
+        "name": "col1_text",
+        "label": "Title"
+      },
+      {
+        "component": "text",
+        "name": "col2_text",
+        "label": "Title"
+      }
+    ]
   }
-
 ]
