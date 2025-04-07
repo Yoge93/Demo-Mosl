@@ -12,14 +12,11 @@ import {
   loadSections,
   loadCSS
 } from './aem.js';
-<<<<<<< HEAD
 
 import {
   decorateBlock,
   loadBlock
 }from './lib-franklin.js'
-=======
->>>>>>> 80fde5b8cee89243e7a4594f450e659df839ec7e
 /**
  * Moves all the attributes from a given elmenet to another given element.
  * @param {Element} from the element to copy attributes from
@@ -137,12 +134,9 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
-<<<<<<< HEAD
   
 
-=======
   autolinkModals(doc);
->>>>>>> 80fde5b8cee89243e7a4594f450e659df839ec7e
   const main = doc.querySelector('main');
   await loadSections(main);
 
