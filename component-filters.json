@@ -21,7 +21,25 @@
       "carouselhero",
       "carouselone",
       "header-mo",
+      "modal",
+      "hero-banner",
+      "product",
+      "search",
+      "productNew",
+      "teaser-cards",
       "modal"
+    ]
+  },
+  {
+    "id": "teaser-cards",
+    "components": [
+      "teaser-card"
+    ]
+  },
+  {
+    "id": "hero-banner",
+    "components": [
+      "hero-banner-item"
     ]
   },
   {

@@ -1,0 +1,45 @@
+.tabs {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.tabs-header {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tab-button {
+    padding: 10px 20px;
+    border: none;
+    background: #F0F0F0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.tab-button.active {
+    background: #0056B3;
+    color: white;
+}
+.tabs-content {
+    display: flex;
+    flex-direction: column;
+}
+.tabs-panel {
+    display: none;
+}
+.tabs-panel.active {
+    display: block;
+}
+.carousel {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+.carousel-image {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.carousel-image:hover {
+    transform: scale(1.1);
+}
