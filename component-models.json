@@ -487,13 +487,13 @@
       },
       {
         "component": "richtext",
-        "name": "title",
+        "name": "rte",
         "label": "Explore Product Title",
         "valueType": "string"
       },
       {
         "component": "select",
-        "name": "titleType",
+        "name": "rteType",
         "label": "Left Title Type",
         "options": [
           {
