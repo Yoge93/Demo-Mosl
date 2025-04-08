@@ -487,12 +487,12 @@
       },
       {
         "component": "richtext",
-        "name": "rte",
+        "name": "title",
         "label": "Left Title"
       },
       {
         "component": "select",
-        "name": "rteType",
+        "name": "titleType",
         "label": "Left Title Type",
         "options": [
           {
