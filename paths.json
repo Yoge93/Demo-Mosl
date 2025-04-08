@@ -6,6 +6,7 @@
     "/content/DemoMosl/my-sheeter:/my-sheeter.json",
     "/content/DemoMosl/configuration:/.helix/config.json",
     "/content/DemoMosl/metadata:/metadata.json",
+    "/content/DemoMosl/my-data:/my-data.json",
     "/content/DemoMosl/:/",
     "/content/DemoMosl/api:/api.json",
     "/content/DemoMosl/:/",
