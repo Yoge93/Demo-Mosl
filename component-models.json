@@ -611,7 +611,7 @@
     "id": "footer-top",
     "fields": [
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
