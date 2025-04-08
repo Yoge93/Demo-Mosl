@@ -636,7 +636,7 @@
       },
       {
         "component": "richtext",
-        "name": "rte",
+        "name": "title",
         "label": "Content"
       }
     ]
