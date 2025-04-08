@@ -633,6 +633,11 @@
           { "name": "Footer Top Left", "value": "footer-top-left" },
           { "name": "Footer Top Right", "value": "footer-top-right" }
         ]
+      },
+      {
+        "component": "richtext",
+        "name": "rte",
+        "label": "Content"
       }
     ]
   },
