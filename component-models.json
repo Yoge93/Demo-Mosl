@@ -136,6 +136,10 @@
           {
             "name": "Explore Our Products",
             "value": "explore-our-products"
+          },
+          {
+            "name": "Footer",
+            "value": "footer-content"
           }
         ]
       }
@@ -600,6 +604,63 @@
         "value": "",
         "label": "Icon Alt",
         "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "footer-top",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Footer Top", "value": "footer-top" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "footer-top-item",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Footer Top Left", "value": "footer-top-left" },
+          { "name": "Footer Top Right", "value": "footer-top-right" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "footer-middle",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Footer Middle", "value": "footer-middle" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "footer-bottom",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Footer Bottom", "value": "footer-bottom" }
+        ]
       }
     ]
   }
