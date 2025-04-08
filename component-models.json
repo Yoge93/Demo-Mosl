@@ -668,12 +668,6 @@
     "id": "important-links-item",
     "fields": [
       {
-        "component": "reference",
-        "name": "col1_image",
-        "label": "Logo",
-        "multi": false
-      },
-      {
         "component": "richtext",
         "name": "text",
         "label": "text",
