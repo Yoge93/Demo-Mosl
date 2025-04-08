@@ -674,5 +674,15 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "faq",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Link"
+      }
+    ]
   }
 ]
