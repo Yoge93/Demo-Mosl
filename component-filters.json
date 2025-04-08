@@ -54,5 +54,13 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "sIP-Calculator",
+    "components": [
+      "text",
+      "button",
+      "title"
+    ]
   }
 ]
