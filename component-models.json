@@ -486,13 +486,13 @@
         "options": [{ "name": "Explore Title", "value": "explore-title" }]
       },
       {
-        "component": "text",
-        "name": "title",
+        "component": "richtext",
+        "name": "rte",
         "label": "Left Title"
       },
       {
         "component": "select",
-        "name": "titleType",
+        "name": "rteType",
         "label": "Left Title Type",
         "options": [
           {
