@@ -665,7 +665,7 @@
     ]
   },
   {
-    "id": "important-links-item",
+    "id": "important-links",
     "fields": [
       {
         "component": "richtext",

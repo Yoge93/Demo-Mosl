@@ -417,22 +417,6 @@
               }
             }
           }
-        },
-        {
-          "title": "Important Links Item",
-          "id": "important-links-item",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block/item",
-                "template": {
-                  "name": "Important Links Item",
-                  "model": "important-links-item",
-                  "author": "Rupesh Mahadik"
-                }
-              }
-            }
-          }
         }
       ]
     }

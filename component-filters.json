@@ -33,7 +33,10 @@
   {
     "id": "important-links",
     "components": [
-      "important-links-item"
+      "text",
+      "image",
+      "button",
+      "title"
     ]
   },
   {
