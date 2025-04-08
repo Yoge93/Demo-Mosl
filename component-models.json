@@ -625,16 +625,6 @@
     "id": "footer-top-item",
     "fields": [
       {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Select Class",
-        "valueType": "string",
-        "options": [
-          { "name": "Footer Top Left", "value": "footer-top-left" },
-          { "name": "Footer Top Right", "value": "footer-top-right" }
-        ]
-      },
-      {
         "component": "richtext",
         "name": "title",
         "label": "Content"
