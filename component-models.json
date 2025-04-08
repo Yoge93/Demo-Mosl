@@ -611,7 +611,7 @@
     "id": "footer-top",
     "fields": [
       {
-        "component": "multiselect",
+        "component": "select",
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
@@ -625,7 +625,7 @@
     "id": "footer-top-item",
     "fields": [
       {
-        "component": "select",
+        "component": "multiselect",
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
