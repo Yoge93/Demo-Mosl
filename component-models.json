@@ -626,7 +626,12 @@
     "fields": [
       {
         "component": "richtext",
-        "name": "title",
+        "name": "col1_title",
+        "label": "Content"
+      },
+      {
+        "component": "richtext",
+        "name": "col2_title",
         "label": "Content"
       }
     ]
