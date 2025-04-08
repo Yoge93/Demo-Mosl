@@ -26,7 +26,14 @@
       "search",
       "category",
       "teaser",
-      "header-ru"
+      "header-ru",
+      "important-links"
+    ]
+  },
+  {
+    "id": "important-links",
+    "components": [
+      "important-links-item"
     ]
   },
   {
