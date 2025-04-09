@@ -139,7 +139,7 @@
           },
           {
             "name": "Footer",
-            "value": "footer"
+            "value": "footer-content"
           }
         ]
       }
@@ -323,6 +323,7 @@
         "name": "col2_linkText",
         "label": "Link Text"
       }
+
     ]
   },
   {
@@ -417,7 +418,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name": "text"
+        "name":"text"
       }
     ]
   },
@@ -428,7 +429,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name": "tabtitle"
+        "name":"tabtitle"
       },
       {
         "component": "richtext",
@@ -457,7 +458,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name": "carouselText"
+        "name":"carouselText"
       }
     ]
   },
@@ -712,19 +713,21 @@
     ]
   },
   {
-    "id": "footer-content",
+    "id": "footer-top",
     "fields": [
       {
         "component": "select",
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [{ "name": "Footer Content", "value": "footer-content" }]
+        "options": [
+          { "name": "Footer Top", "value": "footer-top" }
+        ]
       }
     ]
   },
   {
-    "id": "footer-content-item",
+    "id": "footer-top-item",
     "fields": [
       {
         "component": "richtext",
