@@ -100,6 +100,12 @@
     "components":[
       "explore-right-card"
     ]
+  },
+  {
+    "id": "footer-top",
+    "components":[
+      "footer-top-item"
+    ]
   }
   
 ]
