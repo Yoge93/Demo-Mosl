@@ -721,7 +721,9 @@
         "label": "Select Class",
         "valueType": "string",
         "options": [
-          { "name": "Footer Top", "value": "footer-top" }
+          { "name": "Footer Top", "value": "footer-top" },
+          { "name": "Footer Middle", "value": "footer-middle" },
+          { "name": "Footer Bottom", "value": "footer-bottom" }
         ]
       }
     ]

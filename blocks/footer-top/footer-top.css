@@ -16,7 +16,7 @@
 }
 
 .footer-top .footer-top-left {
-    width: 23.21%;
+    width: 24%;
 }
 
 .footer-top-left .footer-list ul {
@@ -47,7 +47,7 @@ p {
 }
 
 .footer-top .footer-top-right {
-    width: calc(100% - 23.21%);
+    width: calc(100% - 24%);
 }
 
 .footer-top-right .footer-list>ul {
