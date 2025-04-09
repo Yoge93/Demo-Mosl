@@ -712,48 +712,24 @@
     ]
   },
   {
-    "id": "footer-top",
+    "id": "footer-content",
     "fields": [
       {
         "component": "select",
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [{ "name": "Footer Top", "value": "footer-top" }]
+        "options": [{ "name": "Footer Content", "value": "footer-content" }]
       }
     ]
   },
   {
-    "id": "footer-top-item",
+    "id": "footer-content-item",
     "fields": [
       {
         "component": "richtext",
         "name": "title",
         "label": "Content"
-      }
-    ]
-  },
-  {
-    "id": "footer-middle",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Select Class",
-        "valueType": "string",
-        "options": [{ "name": "Footer Middle", "value": "footer-middle" }]
-      }
-    ]
-  },
-  {
-    "id": "footer-bottom",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Select Class",
-        "valueType": "string",
-        "options": [{ "name": "Footer Bottom", "value": "footer-bottom" }]
       }
     ]
   }

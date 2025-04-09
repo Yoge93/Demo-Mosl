@@ -29,9 +29,7 @@
       "mf-button",
       "explore-products-right-cards",
       "explore-our-products-title",
-      "footer-top",
-      "footer-middle",
-      "footer-bottom"
+      "footer-content"
     ]
   },
   {
@@ -101,6 +99,12 @@
     "id": "explore-products-right-cards",
     "components":[
       "explore-right-card"
+    ]
+  },
+  {
+    "id": "footer-content",
+    "components":[
+      "footer-content-item"
     ]
   }
   
