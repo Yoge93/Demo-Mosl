@@ -358,6 +358,110 @@
     ]
   },
   {
+    "id": "teaser-cards",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multi Select",
+        "valueType": "string",
+        "options": [
+          { "name": "Primary", "value": "primary" },
+          { "name": "Secondary", "value": "secondary" }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imagetext",
+        "label": "Alt",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "teaser-card",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teasertext_subtitle",
+        "label": "subtitle"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "teasertext_title",
+        "label": "subtitle"
+      }
+    ]
+  },
+  {
+    "id": "tab",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "title",
+        "name": "text"
+      }
+    ]
+  },
+  {
+    "id": "tab-item",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "title",
+        "name": "tabtitle"
+      },
+      {
+        "component": "richtext",
+        "name": "tabbody",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "carousel-one-item",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "label": "title",
+        "name": "carouselText"
+      }
+    ]
+  },
+  {
     "id": "nav-title",
     "fields": [
       {
@@ -615,9 +719,7 @@
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [
-          { "name": "Footer Top", "value": "footer-top" }
-        ]
+        "options": [{ "name": "Footer Top", "value": "footer-top" }]
       }
     ]
   },
@@ -639,9 +741,7 @@
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [
-          { "name": "Footer Middle", "value": "footer-middle" }
-        ]
+        "options": [{ "name": "Footer Middle", "value": "footer-middle" }]
       }
     ]
   },
@@ -653,9 +753,7 @@
         "name": "classes",
         "label": "Select Class",
         "valueType": "string",
-        "options": [
-          { "name": "Footer Bottom", "value": "footer-bottom" }
-        ]
+        "options": [{ "name": "Footer Bottom", "value": "footer-bottom" }]
       }
     ]
   }

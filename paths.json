@@ -7,8 +7,11 @@
     "/content/DemoMosl/configuration:/.helix/config.json",
     "/content/DemoMosl/metadata:/metadata.json",
     "/content/DemoMosl/:/",
+    "/content/DemoMosl/api:/api.json",
+    "/content/DemoMosl/:/",
     "/content/DemoMosl/saving-account-form:/saving-account-form.json",
-    "/content/DemoMosl/ashwin/demo:/ashwin/demo.json"
+    "/content/DemoMosl/:/",
+    "/content/DemoMosl/test1:/test1.json"
   ],
   "includes": [
     "/content/DemoMosl/"

@@ -20,6 +20,10 @@
       "product",
       "search",
       "productNew",
+      "teaser-cards",
+      "modal",
+      "tab",
+      "carousel-one",
       "nav-title",
       "motilal-nav",
       "mf-button",
@@ -28,6 +32,12 @@
       "footer-top",
       "footer-middle",
       "footer-bottom"
+    ]
+  },
+  {
+    "id": "teaser-cards",
+    "components": [
+      "teaser-card"
     ]
   },
   {
@@ -46,6 +56,18 @@
     "id": "columns",
     "components": [
       "column"
+    ]
+  },
+  {
+    "id": "tab",
+    "components": [
+      "tab-item"
+    ]
+  },
+  {
+    "id": "carousel-one",
+    "components": [
+      "carousel-one-item"
     ]
   },
   {
