@@ -140,6 +140,10 @@
           {
             "name": "Footer",
             "value": "footer-content"
+          },
+          {
+            "name": "Strategy Construct",
+            "value": "strategy-construct"
           }
         ]
       }
@@ -735,20 +739,6 @@
         "component": "richtext",
         "name": "title",
         "label": "Content"
-      }
-    ]
-  },
-  {
-    "id": "strategy-construct",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Select Class",
-        "valueType": "string",
-        "options": [
-          { "name": "Strategy Construct", "value": "strategy-construct" }
-        ]
       }
     ]
   }
