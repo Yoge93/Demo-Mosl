@@ -30,7 +30,8 @@
       "explore-products-right-cards",
       "explore-our-products-title",
       "footer-top",
-      "strategy-construct-card"
+      "strategy-construct-card",
+      "investment-philosophy-card"
     ]
   },
   {
@@ -112,6 +113,12 @@
     "id": "strategy-construct-card",
     "components":[
       "strategy-card-item"
+    ]
+  },
+  {
+    "id": "investment-philosophy-card",
+    "components":[
+      "investment-card-item"
     ]
   }
   
