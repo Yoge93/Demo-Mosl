@@ -2,7 +2,8 @@
   "mappings": [
     "/content/DemoMosl/:/",
     "/content/DemoMosl/configuration:/.helix/config.json",
-    "/content/DemoMosl/metadata:/metadata.json"
+    "/content/DemoMosl/metadata:/metadata.json",
+    "content/DemoMosl/header-ak/apidata:/header-ak/apidata.json"
   ],
   "includes": [
     "/content/DemoMosl/"
