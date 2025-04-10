@@ -140,10 +140,6 @@
           {
             "name": "Footer",
             "value": "footer-content"
-          },
-          {
-            "name": "Strategy Construct",
-            "value": "strategy-construct"
           }
         ]
       }
@@ -327,7 +323,6 @@
         "name": "col2_linkText",
         "label": "Link Text"
       }
-
     ]
   },
   {
@@ -422,7 +417,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name":"text"
+        "name": "text"
       }
     ]
   },
@@ -433,7 +428,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name":"tabtitle"
+        "name": "tabtitle"
       },
       {
         "component": "richtext",
@@ -462,7 +457,7 @@
         "component": "text",
         "valueType": "string",
         "label": "title",
-        "name":"carouselText"
+        "name": "carouselText"
       }
     ]
   },
@@ -739,6 +734,20 @@
         "component": "richtext",
         "name": "title",
         "label": "Content"
+      }
+    ]
+  },
+  {
+    "id": "strategy-construct",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Strategy Construct Content", "value": "strategy-construct-content" }
+        ]
       }
     ]
   }
