@@ -738,23 +738,6 @@
     ]
   },
   {
-    "id": "strategy-construct",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "label": "Select Class",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Strategy Construct Content",
-            "value": "strategy-construct-content"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "strategy-card-item",
     "fields": [
       {
