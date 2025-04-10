@@ -107,6 +107,12 @@
     "components":[
       "footer-top-item"
     ]
+  },
+  {
+    "id": "strategy-construct-card",
+    "components":[
+      "strategy-card-item"
+    ]
   }
   
 ]
