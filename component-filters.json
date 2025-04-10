@@ -19,7 +19,26 @@
       "hero-banner",
       "important-card",
       "img-click",
+      "product",
+      "search",
+      "productNew",
+      "teaser-cards",
+      "modal",
+      "tab",
+      "carousel-one",
       "sIP-Calculator"
+    ]
+  },
+  {
+    "id": "teaser-cards",
+    "components": [
+      "teaser-card"
+    ]
+  },
+  {
+    "id": "hero-banner",
+    "components": [
+      "hero-banner-item"
     ]
   },
   {
@@ -45,6 +64,18 @@
     "components": [
       "headertitle",
       "card"
+    ]
+  },
+  {
+    "id": "tab",
+    "components": [
+      "tab-item"
+    ]
+  },
+  {
+    "id": "carousel-one",
+    "components": [
+      "carousel-one-item"
     ]
   },
   {

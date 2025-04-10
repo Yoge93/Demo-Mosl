@@ -1,9 +1,19 @@
 {
   "mappings": [
     "/content/DemoMosl/:/",
+    "/content/DemoMosl/ashwin/dropdown:/ashwin/dropdown.json",
+    "/content/DemoMosl/ashwin/my-sheet:/ashwin/my-sheet.json",
+    "/content/DemoMosl/my-sheeter:/my-sheeter.json",
     "/content/DemoMosl/configuration:/.helix/config.json",
     "/content/DemoMosl/metadata:/metadata.json",
-    "content/DemoMosl/header-ak/apidata:/header-ak/apidata.json"
+    "/content/DemoMosl/my-data:/my-data.json",
+    "/content/DemoMosl/:/",
+    "/content/DemoMosl/api:/api.json",
+    "/content/DemoMosl/:/",
+    "/content/DemoMosl/saving-account-form:/saving-account-form.json",
+    "/content/DemoMosl/:/",
+    "/content/DemoMosl/test1:/test1.json",
+    "/content/DemoMosl/header-ak/apidata:/header-ak/apidata.json"
   ],
   "includes": [
     "/content/DemoMosl/"

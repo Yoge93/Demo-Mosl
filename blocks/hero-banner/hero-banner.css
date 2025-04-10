@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('./swiper-bundal.min.css');
 /* .hero-banner{
     margin: 0;
@@ -11,3 +12,11 @@
     padding: 0; */
     display: flex;
   }
+=======
+@import url('./swiper-bundle.min.css');
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  
+>>>>>>> 48e18617783d4b7f736308fd9ace39356bb44868
