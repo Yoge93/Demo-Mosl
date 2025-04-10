@@ -737,5 +737,19 @@
         "label": "Content"
       }
     ]
+  },
+  {
+    "id": "strategy-construct",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class",
+        "valueType": "string",
+        "options": [
+          { "name": "Strategy Construct", "value": "strategy-construct" }
+        ]
+      }
+    ]
   }
 ]
