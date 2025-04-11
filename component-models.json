@@ -899,5 +899,17 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "manager-button-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "col2_titletag",
+        "value": "",
+        "label": "Card Title Tag",
+        "valueType": "string"
+      }
+    ]
   }
 ]
