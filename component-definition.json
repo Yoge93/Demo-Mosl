@@ -172,7 +172,6 @@
             }
           }
         },
-        ,
         {
           "title": "Hero Banner",
           "id": "hero-banner",
@@ -342,7 +341,7 @@
               }
             }
           }
-        }
+        },
         {
           "title": "Hero-banner",
           "id": "hero-banner",
