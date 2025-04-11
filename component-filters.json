@@ -121,6 +121,12 @@
     "components":[
       "investment-card-item"
     ]
+  },
+  {
+    "id": "fund-manager-card",
+    "components":[
+      "manager-card-item"
+    ]
   }
   
 ]
