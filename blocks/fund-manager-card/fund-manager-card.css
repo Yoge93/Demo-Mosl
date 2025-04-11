@@ -1,0 +1,104 @@
+.section.fund-manager-card-container {
+    background-color: #f4f6fb;
+    padding: 30px 0;
+}
+
+.section.fund-manager-card-container h2 {
+    margin: 35px 0;
+    font-family: sans-serif;
+    color: #2b2e8c;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.4px;
+    letter-spacing: -0.4px;
+    text-align: center;
+}
+
+.fund-manager-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 66.666667%;
+    margin: 0 auto;
+}
+
+.fund-manager-card .manager-card {
+    background-color: #fff;
+    padding: 40px 25px 40px 55px;
+    position: relative;
+}
+
+.manager-card .card-content-1 {
+    position: absolute;
+    top: 25px;
+    left: -30px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.card-content-1 img {
+    border-radius: 50%;
+}
+
+.card-content-2 h4,
+.card-content-2 h5 {
+    color: #1a294e;
+    font-family: Roboto;
+    font-weight: 700;
+    margin: 0 0 6px;
+    font-size: 20px;
+}
+
+.card-content-2 p {
+    color: #1a294e;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.card-content-2 p:nth-of-type(2) {
+    color: #6a738a;
+    margin: 20px 0;
+}
+
+.card-content-2 h5 {
+    font-size: 14px;
+}
+
+.card-content-2 ul {
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-content-2 ul li {
+    list-style: none;
+    border: 1px solid #bfc3ce;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-content-2 ul li a {
+    padding: 10px 25px 10px 15px;
+    text-decoration: none;
+    color: #6a738a;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.card-content-2 ul li a:after {
+    content: '';
+    border-top: 1px solid #f76868;
+    border-right: 1px solid #f76868;
+    min-width: 7px;
+    height: 7px;
+    display: block;
+    transform: rotate(45deg);
+}
