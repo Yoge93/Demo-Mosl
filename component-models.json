@@ -845,8 +845,22 @@
     "id": "manager-card-item",
     "fields": [
       {
+        "component": "reference",
+        "name": "col1_imagepath",
+        "value": "",
+        "label": "Icon Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col1_imagepathAlt",
+        "value": "",
+        "label": "Icon Alt",
+        "valueType": "string"
+      },
+      {
         "component": "richtext",
-        "name": "title",
+        "name": "col2_title",
         "value": "",
         "label": "Card Content",
         "valueType": "string"
