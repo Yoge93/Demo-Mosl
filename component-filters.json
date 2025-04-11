@@ -125,7 +125,13 @@
   {
     "id": "fund-manager-card",
     "components":[
-      "manager-card-item"
+      "manager-button"
+    ]
+  },
+  {
+    "id": "manager-button",
+    "components":[
+      "manager-button-item"
     ]
   }
   
