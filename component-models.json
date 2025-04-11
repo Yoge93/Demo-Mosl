@@ -845,29 +845,15 @@
     "id": "manager-card-item",
     "fields": [
       {
-        "component": "reference",
-        "name": "col1_imagepath",
-        "value": "",
-        "label": "Icon Source",
-        "valueType": "string"
-      },
-      {
         "component": "text",
-        "name": "col1_imagepathAlt",
-        "value": "",
-        "label": "Icon Alt",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "col2_title",
+        "name": "col1_title",
         "value": "",
         "label": "Card Title",
         "valueType": "string"
       },
       {
         "component": "select",
-        "name": "col2_titleType",
+        "name": "col1_titleType",
         "label": "Card Title Type",
         "options": [
           {
@@ -893,21 +879,9 @@
       },
       {
         "component": "text",
-        "name": "col2_carddesc",
+        "name": "col3_carddesc",
         "value": "",
         "label": "Card Description",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "manager-button-item",
-    "fields": [
-      {
-        "component": "text",
-        "name": "col2_titletag",
-        "value": "",
-        "label": "Card Title Tag",
         "valueType": "string"
       }
     ]

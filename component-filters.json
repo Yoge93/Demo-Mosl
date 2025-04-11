@@ -32,9 +32,7 @@
       "footer-top",
       "strategy-construct-card",
       "investment-philosophy-card",
-      "fund-manager-card",
-      "manager-button",
-      "manager-button-item"
+      "fund-manager-card"
     ]
   },
   {
@@ -122,12 +120,6 @@
     "id": "investment-philosophy-card",
     "components":[
       "investment-card-item"
-    ]
-  },
-  {
-    "id": "manager-button",
-    "components":[
-      "manager-button-item"
     ]
   }
   
