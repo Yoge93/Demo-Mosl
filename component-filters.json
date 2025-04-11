@@ -31,7 +31,8 @@
       "explore-our-products-title",
       "footer-top",
       "strategy-construct-card",
-      "investment-philosophy-card"
+      "investment-philosophy-card",
+      "fund-manager-card"
     ]
   },
   {
@@ -119,6 +120,12 @@
     "id": "investment-philosophy-card",
     "components":[
       "investment-card-item"
+    ]
+  },
+  {
+    "id": "fund-manager-card",
+    "components":[
+      "manager-card-item"
     ]
   }
   
