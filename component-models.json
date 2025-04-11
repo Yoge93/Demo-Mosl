@@ -899,5 +899,15 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "card-button-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "title",
+        "label": "Button List"
+      }
+    ]
   }
 ]
