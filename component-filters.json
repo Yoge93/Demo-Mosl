@@ -123,12 +123,6 @@
     ]
   },
   {
-    "id": "fund-manager-card",
-    "components":[
-      "manager-button"
-    ]
-  },
-  {
     "id": "manager-button",
     "components":[
       "manager-button-item"
