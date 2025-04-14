@@ -1,11 +1,11 @@
-.section.strategy-construct-card-container {
+.section.strategy-card-container {
     /* background-color: lavender; */
     max-width: 1110px;
     padding: 0 15px;
     margin: 20px auto 0;
 }
 
-.strategy-construct-card-container h2 {
+.strategy-card-container h2 {
     color: #2b2e8c;
     margin: 0 0 35px;
     font-size: 40px;
@@ -14,19 +14,19 @@
     text-align: center;
 }
 
-.section .strategy-construct-card-wrapper {
+.section .strategy-card-wrapper {
     padding: 0;
     margin-left: -15px;
     margin-right: -15px;
 }
 
-.strategy-construct-card {
+.strategy-card {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 30px;
 }
 
-.strategy-construct-card .card-item {
+.strategy-card .card-item {
     max-width: 31.5%;
     width: 100%;
     display: flex;
