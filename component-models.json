@@ -868,7 +868,7 @@
     ]
   },
   {
-    "id": "pms-strategies",
+    "id": "pms-strategies-item",
     "fields" : [
       {
         "component": "text",
