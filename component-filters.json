@@ -32,7 +32,8 @@
       "footer-top",
       "strategy-card",
       "investment-philosophy-card",
-      "fund-manager-card"
+      "fund-manager-card",
+      "pms-strategies"
     ]
   },
   {
@@ -126,6 +127,12 @@
     "id": "fund-manager-card",
     "components":[
       "manager-card-item"
+    ]
+  },
+  {
+    "id": "pms-strategies",
+    "components":[
+      "pms-strategies-item"
     ]
   }
   
