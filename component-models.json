@@ -932,5 +932,15 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "fragment-block",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Left Title"
+      }
+    ]
   }
 ]
