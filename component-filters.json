@@ -34,7 +34,8 @@
       "investment-philosophy-card",
       "fund-manager-card",
       "pms-strategies",
-      "fragment-block"
+      "fragment-block",
+      "tab-swiper"
     ]
   },
   {
@@ -134,6 +135,12 @@
     "id": "pms-strategies",
     "components":[
       "pms-strategies-item"
+    ]
+  },
+  {
+    "id": "tab-swiper",
+    "components":[
+      "tab-swiper-item"
     ]
   }
   

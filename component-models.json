@@ -942,5 +942,22 @@
         "label": "Left Title"
       }
     ]
+  },
+  {
+    "id": "tab-swiper",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "value": "",
+        "label": "Tab Title",
+        "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Left Title"
+      }
+    ]
   }
 ]

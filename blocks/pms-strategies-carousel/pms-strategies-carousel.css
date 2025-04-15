@@ -1,3 +1,63 @@
-.section.pms-strategies-carousel-container{
-    background-color: grey;
+@import url('../pms-strategies-carousel/swiper-bundle.min.css');
+
+.section.pms-strategies-carousel-container {
+    background-color: lavenderblush;
+}
+
+.pms-strategies-carousel-container h2 {
+    font-size: 40px;
+    line-height: 46.4px;
+    letter-spacing: -0.4px;
+    color: #2b2e8c;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.pms-strategies-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pms-strategies-carousel .pms-card {
+    max-width: 340px;
+    background: linear-gradient(90deg, #e5d3e4, #dfe3ef);
+    padding: 30px 15px 0;
+    border-bottom: 6px solid transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.pms-strategies-carousel .pms-card .card-item-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.card-item-1 h3 {
+    font-size: 21px;
+    color: #1a294e;
+    line-height: 28px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card-item-1 p {
+    min-width: 33.333%;
+    margin: 0;
+}
+
+.pms-card .card-item-2{
+    margin-bottom: auto;
+}
+
+.card-item-2 p {
+    font-size: 13px;
+    color: #6a738a;
+    line-height: 19px;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-weight: 400;
 }
