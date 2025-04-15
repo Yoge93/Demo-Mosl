@@ -944,7 +944,7 @@
     ]
   },
   {
-    "id": "tab-swiper",
+    "id": "tab-swiper-item",
     "fields": [
       {
         "component": "text",
