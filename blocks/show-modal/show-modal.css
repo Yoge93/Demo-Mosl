@@ -1,0 +1,48 @@
+@import url(../embed/embed.css);
+
+.show-modal-wrapper {
+    background-color: red;
+}
+
+.show-modal {
+    position: relative;
+}
+
+.show-modal>div div:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.show-modal>div div:nth-child(2) .button-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+}
+
+.show-modal>div div:nth-child(2) .button {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.show-modal>div div:nth-child(2) .button-container::after {
+    content: '';
+    background: url(../../icons/search.svg);
+    width: 100px;
+    height: 100px;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

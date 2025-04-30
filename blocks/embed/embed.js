@@ -19,25 +19,28 @@ const loadScript = (url, callback, type) => {
 const getDefaultEmbed = (
   url
 ) => `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-    <iframe src="${url.href}" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen=""
-      scrolling="no" allow="encrypted-media" title="Content from ${url.hostname}" loading="lazy">
-    </iframe>
-  </div>`;
+      <iframe src="${url.href}" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen=""
+        scrolling="no" allow="encrypted-media" title="Content from ${url.hostname}" loading="lazy">
+      </iframe>
+    </div>`;
 
 const embedYoutube = (url, autoplay) => {
   const usp = new URLSearchParams(url.search);
-  const suffix = autoplay ? "&muted=1&autoplay=1" : "";
+  // const suffix = autoplay ? '&muted=1&autoplay=1' : '';
+  const suffix = autoplay ? "&autoplay=1&mute=1" : "&autoplay=1&mute=1";
   let vid = usp.get("v") ? encodeURIComponent(usp.get("v")) : "";
   const embed = url.pathname;
   if (url.origin.includes("youtu.be")) {
     [, vid] = url.pathname.split("/");
   }
   const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-      <iframe src="https://www.youtube.com${
-        vid ? `/embed/${vid}?rel=0&v=${vid}${suffix}` : embed
-      }" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
-      allow="autoplay; fullscreen; picture-in-picture; encrypted-media; accelerometer; gyroscope; picture-in-picture" allowfullscreen="" scrolling="no" title="Content from Youtube" loading="lazy"></iframe>
-    </div>`;
+        <iframe src="https://www.youtube.com${
+          vid
+            ? `/embed/${vid}?rel=0&v=${vid}${suffix}`
+            : `${embed}?autoplay=1&mute=1`
+        }" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+        allow="autoplay; fullscreen; picture-in-picture; encrypted-media; accelerometer; gyroscope; picture-in-picture" allowfullscreen="" scrolling="no" title="Content from Youtube" loading="lazy"></iframe>
+      </div>`;
   return embedHTML;
 };
 
@@ -45,11 +48,11 @@ const embedVimeo = (url, autoplay) => {
   const [, video] = url.pathname.split("/");
   const suffix = autoplay ? "?muted=1&autoplay=1" : "";
   const embedHTML = `<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-      <iframe src="https://player.vimeo.com/video/${video}${suffix}" 
-      style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
-      frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen  
-      title="Content from Vimeo" loading="lazy"></iframe>
-    </div>`;
+        <iframe src="https://player.vimeo.com/video/${video}${suffix}" 
+        style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" 
+        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen  
+        title="Content from Vimeo" loading="lazy"></iframe>
+      </div>`;
   return embedHTML;
 };
 
@@ -59,7 +62,7 @@ const embedTwitter = (url) => {
   return embedHTML;
 };
 
-const loadEmbed = (block, link, autoplay) => {
+export const loadEmbed = (block, link, autoplay) => {
   if (block.classList.contains("embed-is-loaded")) {
     return;
   }

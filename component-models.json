@@ -869,7 +869,7 @@
   },
   {
     "id": "pms-strategies-item",
-    "fields" : [
+    "fields": [
       {
         "component": "text",
         "name": "col1_title",
@@ -967,6 +967,31 @@
         "component": "aem-content",
         "name": "link",
         "label": "Enter youtube URL"
+      }
+    ]
+  },
+  {
+    "id": "embed",
+    "fields": [
+      {
+        "component": "aem-content",
+        "name": "video_url",
+        "label": "Video URL"
+      },
+      {
+        "component": "reference",
+        "name": "video_image",
+        "label": "Video Image"
+      },
+      {
+        "component": "text",
+        "name": "video_imageAlt",
+        "label": "Video Image Alt"
+      },
+      {
+        "component": "text",
+        "name": "video_imageTitle",
+        "label": "Video Image Title"
       }
     ]
   },
