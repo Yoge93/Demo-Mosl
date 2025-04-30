@@ -703,7 +703,7 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Video Modal Item",
-                  "filter": "video-modal-item"
+                  "model": "video-modal-item"
                 }
               }
             }
