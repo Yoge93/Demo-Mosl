@@ -964,16 +964,9 @@
     "id": "video-modal-item",
     "fields": [
       {
-        "component": "text",
-        "name": "title",
-        "value": "",
-        "label": "Tab Title",
-        "valueType": "string"
-      },
-      {
         "component": "aem-content",
         "name": "link",
-        "label": "Titlefragmrnt linl"
+        "label": "Enter youtube URL"
       }
     ]
   }
