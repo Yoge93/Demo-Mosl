@@ -961,16 +961,6 @@
     ]
   },
   {
-    "id": "video-modal-item",
-    "fields": [
-      {
-        "component": "aem-content",
-        "name": "link",
-        "label": "Enter youtube URL"
-      }
-    ]
-  },
-  {
     "id": "embed",
     "fields": [
       {
