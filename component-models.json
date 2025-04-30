@@ -959,5 +959,17 @@
         "label": "Titlefragmrnt linl"
       }
     ]
+  },
+  {
+    "id": "video-modal-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "value": "",
+        "label": "Enter youtube URL",
+        "valueType": "string"
+      }
+    ]
   }
 ]
