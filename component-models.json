@@ -967,8 +967,13 @@
         "component": "text",
         "name": "title",
         "value": "",
-        "label": "Enter youtube URL",
+        "label": "Tab Title",
         "valueType": "string"
+      },
+      {
+        "component": "aem-content",
+        "name": "link",
+        "label": "Titlefragmrnt linl"
       }
     ]
   }
