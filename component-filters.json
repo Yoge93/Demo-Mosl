@@ -36,7 +36,8 @@
       "pms-strategies",
       "fragment-block",
       "tab-swiper",
-      "video-modal"
+      "video-modal",
+      "show-modal"
     ]
   },
   {
@@ -148,6 +149,12 @@
     "id": "video-modal",
     "components":[
       "video-modal-item"
+    ]
+  },
+  {
+    "id": "show-modal",
+    "components":[
+      "show-modal-item"
     ]
   }
   

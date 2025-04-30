@@ -969,5 +969,38 @@
         "label": "Enter youtube URL"
       }
     ]
+  },
+  {
+    "id": "show-modal-item",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "col1_imagepath",
+        "value": "",
+        "label": "Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col1_imagepathAlt",
+        "value": "",
+        "label": "Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col2_imagepath",
+        "value": "",
+        "label": "play Icon Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col2_imagepathAlt",
+        "value": "",
+        "label": "Icon Alt",
+        "valueType": "string"
+      }
+    ]
   }
 ]
