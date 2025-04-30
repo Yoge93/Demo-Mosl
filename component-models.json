@@ -988,18 +988,9 @@
         "valueType": "string"
       },
       {
-        "component": "reference",
-        "name": "col2_imagepath",
-        "value": "",
-        "label": "play Icon Source",
-        "valueType": "string"
-      },
-      {
-        "component": "text",
-        "name": "col2_imagepathAlt",
-        "value": "",
-        "label": "Icon Alt",
-        "valueType": "string"
+        "component": "aem-content",
+        "name": "link",
+        "label": "Enter popup path"
       }
     ]
   }
