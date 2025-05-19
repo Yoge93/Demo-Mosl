@@ -1,6 +1,6 @@
 import { div, h3, form, label, input, span } from "../../scripts/dom-helper.js";
 import {} from "../lumpsum-calculator/chart.js";
-
+export default function (block) {    
 // Function form creating Input Fields and Range
 function createField(id, labelText, min, max, value) {
   return div({ class: "each-field" },
@@ -136,7 +136,7 @@ function renderCalculatedValue() {
 };
 
 // On load Logic
-document.addEventListener("DOMContentLoaded", function () {
+block.addEventListener("DOMContentLoaded", function () {
   rangeInp.forEach((inp, i) => {
     inp.value = numberInp[i].value;
     updateFill(inp);
@@ -194,7 +194,7 @@ rangeInp.forEach((ele) => {
   });
 });
 
-
+// Chart Configuration
 function piechart(invest, estimated) {
   Highcharts.chart("calculate-chart", {
     chart: {
@@ -269,3 +269,4 @@ function piechart(invest, estimated) {
     ],
   });
 }
+};
