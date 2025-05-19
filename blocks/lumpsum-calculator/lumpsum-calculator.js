@@ -1,4 +1,5 @@
-import { div, h3, form, label, input } from "../../scripts/dom-helper.js";
+import { div, h3, form, label, input, span } from "../../scripts/dom-helper.js";
+import chart from "../lumpsum-calculator/chart.js";
 
 // Function form creating Input Fields and Range
 function createField(id, labelText, min, max, value) {
@@ -36,8 +37,7 @@ function createValueField(id, title, value) {
 };
 
 const lumpsumCalc = document.querySelector(".lumpsum-calculator");
-console.log(lumpsumCalc);
-
+// Calculator Content
 const lumpsumCalcContent = div({ class: "lumpsum-calc-content" },
 // Left Content
     div({ class: "left-content" },
@@ -58,5 +58,9 @@ const lumpsumCalcContent = div({ class: "lumpsum-calc-content" },
         )
     )
 );
-
 lumpsumCalc.appendChild(lumpsumCalcContent);
+
+
+// Calc Functionality
+console.log(chart);
+
