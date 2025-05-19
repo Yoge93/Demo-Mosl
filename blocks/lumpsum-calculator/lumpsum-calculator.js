@@ -86,25 +86,26 @@ function inpRangeSync(e) {
   const min = Number(e.target.min);
   const max = Number(e.target.max);
   const val = Number(e.target.value);
+  const target = e.target;
   const type = e.target.type;
   if (type == "number") {
     if (min > val || isNaN(val)) {
       rangeInput.value = min;
-      wrapper.querySelector("input").classList.add("error");
-      wrapper.querySelector("input").classList.remove("default");
+      target.classList.add("error");
+      target.classList.remove("default");
     } else if (max < val) {
       rangeInput.value = max;
-      wrapper.querySelector("input").classList.add("error");
-      wrapper.querySelector("input").classList.remove("default");
+      target.classList.add("error");
+      target.classList.remove("default");
     } else {
       rangeInput.value = val;
-      wrapper.querySelector("input").classList.remove("error");
-      wrapper.querySelector("input").classList.add("default");
+      target.classList.remove("error");
+      target.classList.add("default");
     }
   } else {
     numberInput.value = rangeInput.value;
-    wrapper.querySelector("input").classList.remove("error");
-    wrapper.querySelector("input").classList.add("default");
+    target.classList.remove("error");
+    target.classList.add("default");
   }
 };
 
@@ -136,7 +137,7 @@ function renderCalculatedValue() {
 };
 
 // On load Logic
-block.addEventListener("DOMContentLoaded", function () {
+// block.addEventListener("DOMContentLoaded", function () {
   rangeInp.forEach((inp, i) => {
     inp.value = numberInp[i].value;
     updateFill(inp);
@@ -146,7 +147,7 @@ block.addEventListener("DOMContentLoaded", function () {
     Number(investAmt.textContent.replace(/,/g, "")),
     Number(estReturns.textContent.replace(/,/g, ""))
   );
-});
+// });
 
 // Input logic
 numberInp.forEach((ele) => {
