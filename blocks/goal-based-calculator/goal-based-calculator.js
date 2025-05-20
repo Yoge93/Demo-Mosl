@@ -1,5 +1,6 @@
 import { div, h3, form, label, input, span } from "../../scripts/dom-helper.js";
 
+export default function (block) {    
 // Function form creating left content (Input Fields and Range)
 function createField(id, labelText, min, max, value) {
   return div({ class: "each-field" },
@@ -194,3 +195,4 @@ goalRangeInp.forEach((range, i) => {
     updateFill(range);
 });
 renderCalculatedValue();
+};
