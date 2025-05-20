@@ -134,7 +134,7 @@
     ]
   },
   {
-    "id": "sip-calculator",
+    "id": "calculator-sip",
     "fields": [
       {
         "component": "richtext",
