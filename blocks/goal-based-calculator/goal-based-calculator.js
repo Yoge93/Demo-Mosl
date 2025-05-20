@@ -74,3 +74,123 @@ const goalBasedContent = div(
   )
 );
 goalBasedCalc.appendChild(goalBasedContent);
+
+// Calc Functionality
+const goalNumberInp = document.querySelectorAll(".goal-based-calc-content .each-field-top input");
+const goalRangeInp = document.querySelectorAll(".goal-based-calc-content .each-field-bottom input");
+const totalInvest = document.getElementById("total-investment");
+const monthlySIPamnt = document.getElementById("monthly-sip-amnt");
+
+function updateFill(range) {
+  const min = range.min;
+  const max = range.max;
+  const val = range.value;
+  const getPercentage = ((val - min) / (max - min)) * 100;
+  range.style.setProperty("--progress", `${getPercentage}%`);
+};
+
+function inpRangeSync(e) {
+  const wrapper = e.target.closest(".goal-based-calc-content .each-field");
+  const numberInput = wrapper.querySelector('input[type="number"]');
+  const rangeInput = wrapper.querySelector('input[type="range"]');
+  const min = Number(e.target.min);
+  const max = Number(e.target.max);
+  const val = Number(e.target.value);
+  const target = e.target;
+  const type = e.target.type;
+  if (type == "number") {
+    if (val < min || isNaN(val)) {
+      rangeInput.value = min;
+      target.classList.add("error");
+      target.classList.remove("default");
+    } else if (val > max) {
+      rangeInput.value = max;
+      target.classList.add("error");
+      target.classList.remove("default");
+    } else {
+      rangeInput.value = val;
+      target.classList.remove("error");
+      target.classList.add("default");
+    }
+  } else {
+    numberInput.value = rangeInput.value;
+    target.classList.remove("error");
+    target.classList.add("default");
+  }
+};
+
+function handleInput(e) {
+  inpRangeSync(e);
+  goalRangeInp.forEach((handleRange) => {
+    updateFill(handleRange);
+  });
+};
+
+function calculateGoalBased(fv, i, n) {
+  const calculatedValue = fv / (((Math.pow(1 + i, n) - 1) / i) * (1 + i));
+  const monthlyInvestment = Math.round(calculatedValue);
+  return monthlyInvestment;
+};
+
+function renderCalculatedValue() {
+  const goalAmnt = Number(document.getElementById("goal-number").value);
+  const rateIntrst = Number(
+    document.getElementById("goal-expected-rate").value
+  );
+  const monthRateIntrst = rateIntrst / 12 / 100;
+  const invstYrs = Number(document.getElementById("goal-invest-period").value);
+  const monthInvstYrs = invstYrs * 12;
+  const monthlySIP = calculateGoalBased(
+    goalAmnt,
+    monthRateIntrst,
+    monthInvstYrs
+  );
+  monthlySIPamnt.textContent = monthlySIP;
+  totalInvest.textContent = monthlySIP * monthInvstYrs;
+};
+
+// Input Logic
+goalNumberInp.forEach((number) => {
+  number.addEventListener("input", function (e) {
+    handleInput(e);
+    // rendering logic for number input
+    const min = Number(e.target.min);
+    const max = Number(e.target.max);
+    const val = Number(e.target.value);
+    if (val < min || val > max) {
+      const goalAmnt = Number(document.getElementById("goal-number").min);
+      const rateIntrst = Number(
+        document.getElementById("goal-expected-rate").min
+      );
+      const monthRateIntrst = rateIntrst / 12 / 100;
+      const invstYrs = Number(
+        document.getElementById("goal-invest-period").min
+      );
+      const monthInvstYrs = invstYrs * 12;
+      const monthlySIP = calculateGoalBased(
+        goalAmnt,
+        monthRateIntrst,
+        monthInvstYrs
+      );
+      monthlySIPamnt.textContent = monthlySIP;
+      totalInvest.textContent = monthlySIP * monthInvstYrs;
+    } else {
+      renderCalculatedValue();
+    }
+  });
+});
+
+// Range Logic
+goalRangeInp.forEach((range) => {
+  range.addEventListener("input", function (e) {
+    handleInput(e);
+    renderCalculatedValue();
+  });
+});
+
+// On Load Logic
+goalRangeInp.forEach((range, i) => {
+    range.value = goalNumberInp[i].value;
+    updateFill(range);
+});
+renderCalculatedValue();

@@ -41,7 +41,7 @@ const lumpsumCalc = document.querySelector(".lumpsum-calculator");
 const lumpsumCalcContent = div({ class: "lumpsum-calc-content" },
 // Left Content
     div({ class: "left-content" },
-        h3({ class: "calc-head" }, "Lumpsum Calculator"),
+        h3({ class: "calc-head" }, "Lumpsum SIP Calculator"),
         form({ class: "left-wrapper" },
             createField("investment-number", "Investment Amount (₹)", "500", "1000", "700"),
             createField("expected-rate", "Expected Rate of Return (% p.a.)", "1", "30", "12"),
@@ -74,7 +74,6 @@ function updateFill(range) {
   const val = range.value;
   const getPercentage = ((val - min) / (max - min)) * 100;
   range.style.setProperty("--progress", `${getPercentage}%`);
-  // fill.style.width = `${getPercentage}%`;
 };
 
 function inpRangeSync(e) {
@@ -123,7 +122,6 @@ function calculateLumpSum(p, r, n) {
   return totalInvestment;
 };
 
-// Rendering Value
 function renderCalculatedValue() {
   const investAmntInp = Number(
     document.getElementById("investment-number").value
@@ -137,17 +135,15 @@ function renderCalculatedValue() {
 };
 
 // On load Logic
-// block.addEventListener("DOMContentLoaded", function () {
-  rangeInp.forEach((inp, i) => {
+rangeInp.forEach((inp, i) => {
     inp.value = numberInp[i].value;
     updateFill(inp);
-  });
-  renderCalculatedValue();
-  piechart(
+});
+renderCalculatedValue();
+piechart(
     Number(investAmt.textContent.replace(/,/g, "")),
     Number(estReturns.textContent.replace(/,/g, ""))
-  );
-// });
+);
 
 // Input logic
 numberInp.forEach((ele) => {
