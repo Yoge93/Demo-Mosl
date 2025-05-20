@@ -1,7 +1,7 @@
 import { div, h3, form, label, input, span } from "../../scripts/dom-helper.js";
 import {} from "../lumpsum-calculator/chart.js";
 export default function (block) {    
-// Function form creating Input Fields and Range
+// Function form creating left content (Input Fields and Range)
 function createField(id, labelText, min, max, value) {
   return div({ class: "each-field" },
     div({ class: "each-field-top" },

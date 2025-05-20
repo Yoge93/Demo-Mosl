@@ -38,7 +38,8 @@
       "tab-swiper",
       "show-modal",
       "embed",
-      "lumpsum-calculator"
+      "lumpsum-calculator",
+      "goal-based-calculator"
     ]
   },
   {
