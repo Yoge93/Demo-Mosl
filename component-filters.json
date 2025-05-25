@@ -39,7 +39,8 @@
       "show-modal",
       "embed",
       "lumpsum-calculator",
-      "goal-based-calculator"
+      "goal-based-calculator",
+      "stepUp-calculator"
     ]
   },
   {

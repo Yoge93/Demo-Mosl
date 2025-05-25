@@ -77,8 +77,6 @@ function updateFill(range) {
 };
 
 function inpRangeSync(e) {
-  // numberInp.forEach((numInp, i) => {
-  // const range = rangeInp[i];
   const wrapper = e.target.closest(".each-field");
   const numberInput = wrapper.querySelector('input[type="number"]');
   const rangeInput = wrapper.querySelector('input[type="range"]');
@@ -109,7 +107,6 @@ function inpRangeSync(e) {
 };
 
 function handleInput(e) {
-  // debugger;
   inpRangeSync(e);
   rangeInp.forEach((inp) => {
     updateFill(inp);
@@ -148,9 +145,7 @@ piechart(
 // Input logic
 numberInp.forEach((ele) => {
   ele.addEventListener("input", function (e) {
-    // debugger;
     handleInput(e);
-    // rendering logic for number input
     const numMin = Number(e.target.min);
     const numMax = Number(e.target.max);
     const numval = Number(e.target.value);
@@ -221,7 +216,8 @@ function piechart(invest, estimated) {
       shadow: true,
       padding: 8,
       formatter: function () {
-        return `<b>${this.point.name}</b>: ₹${this.point.y}`;
+        // return `<b>${this.point.name}</b>: ₹${this.point.y}`;
+        return `<b>${this.point.name}: ₹${this.y.toLocaleString("en-IN")}</b>`;
       },
     },
     legend: {
@@ -253,7 +249,7 @@ function piechart(invest, estimated) {
         borderColor: "#fff",
       },
     },
-    colors: ["#2b2e8c", "#1f88ce"], // green and orange
+    colors: ["#2b2e8c", "#1f88ce"],
     series: [
       {
         name: "Amount",
