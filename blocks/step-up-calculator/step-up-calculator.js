@@ -256,7 +256,6 @@ export default function (block) {
   });
 
   // On Load Logic
-  document.addEventListener("DOMContentLoaded", function () {
     stepRangeInp.forEach((range, i) => {
       updateFill(range);
     });
@@ -265,7 +264,6 @@ export default function (block) {
       Number(investedAmnt.textContent.replace(/,/g, "")),
       Number(estimetdReturns.textContent.replace(/,/g, ""))
     );
-  });
 
   // Chart Configuration
   function piechart(invest, estimated) {
