@@ -192,7 +192,9 @@ function piechart(invest, estimated) {
     chart: {
       type: "pie",
       backgroundColor: "transparent",
-      
+    },
+    credits: {
+      enabled: false,
     },
     title: {
       text: "Lump Sum Investment Breakdown",
