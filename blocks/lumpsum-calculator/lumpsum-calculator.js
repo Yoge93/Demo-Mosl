@@ -206,7 +206,7 @@ function piechart(invest, estimated) {
     title: {
       text: "Lump Sum Investment Breakdown",
       style: {
-        color: "#333",
+        color: "#2e2a94",
         fontSize: "18px",
         fontWeight: "bold",
         fontFamily: "Arial, sans-serif",
