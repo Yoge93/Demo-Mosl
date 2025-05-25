@@ -41,7 +41,7 @@ export default function (block) {
     );
   }
 
-  const stepUpCalc = document.querySelector(".stepUp-calculator");
+  const stepUpCalc = document.querySelector(".step-up-calculator");
   // Calculator Content
   const stepUpCalcContent = div(
     { class: "step-up-calc-content" },
