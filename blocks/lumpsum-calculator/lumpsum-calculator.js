@@ -120,15 +120,22 @@ function calculateLumpSum(p, r, n) {
 };
 
 function renderCalculatedValue() {
-  const investAmntInp = Number(
-    document.getElementById("investment-number").value
-  );
+  const investAmntInp = Number(document.getElementById("investment-number").value);
   const expectRtInp = Number(document.getElementById("expected-rate").value);
   const investprdInp = Number(document.getElementById("invest-period").value);
   const result = calculateLumpSum(investAmntInp, expectRtInp, investprdInp);
-  investAmt.textContent = investAmntInp;
-  estReturns.textContent = result - investAmntInp;
-  totalAmt.textContent = result;
+  investAmt.textContent = investAmntInp.toLocaleString("en-IN", {
+    currency: "INR",
+    maximumFractionDigits: 0,
+  });;
+  estReturns.textContent = (result - investAmntInp).toLocaleString("en-IN", {
+    currency: "INR",
+    maximumFractionDigits: 0,
+  });;
+  totalAmt.textContent = result.toLocaleString("en-IN", {
+    currency: "INR",
+    maximumFractionDigits: 0,
+  });;
 };
 
 // On load Logic
@@ -218,7 +225,6 @@ function piechart(invest, estimated) {
       shadow: true,
       padding: 8,
       formatter: function () {
-        // return `<b>${this.point.name}</b>: ₹${this.point.y}`;
         return `<b>${this.point.name}: ₹${this.y.toLocaleString("en-IN")}</b>`;
       },
     },
