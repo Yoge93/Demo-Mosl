@@ -50,7 +50,7 @@ const lumpsumCalcContent = div({ class: "lumpsum-calc-content" },
     ),
 // Right Content
     div({ class: "right-content" },
-        div({id: "calculate-chart"}),
+        div({id: "lumpsum-calculate-chart"}),
         div({class: "calculated-container"},
             createValueField("invest-amount", "Invested Amount", "2000"),
             createValueField("est-returns", "Estimated Returns", "2000"),
@@ -195,7 +195,7 @@ rangeInp.forEach((ele) => {
 
 // Chart Configuration
 function piechart(invest, estimated) {
-  Highcharts.chart("calculate-chart", {
+  Highcharts.chart("lumpsum-calculate-chart", {
     chart: {
       type: "pie",
       backgroundColor: "transparent",

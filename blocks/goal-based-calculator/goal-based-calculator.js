@@ -70,7 +70,7 @@ export default function (block) {
     // Right Content
     div(
       { class: "right-content" },
-      div({ id: "calculate-chart" }),
+      div({ id: "goal-calculate-chart" }),
       div(
         { class: "calculated-container" },
         createValueField("total-investment", "Your Total Investment", "2000"),
