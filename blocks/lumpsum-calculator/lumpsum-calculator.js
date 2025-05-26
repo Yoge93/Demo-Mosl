@@ -204,7 +204,7 @@ function piechart(invest, estimated) {
       enabled: false,
     },
     title: {
-      text: "Lump Sum Investment Breakdown",
+      text: "LumpSum SIP Calculator Chart",
       style: {
         color: "#2e2a94",
         fontSize: "18px",
