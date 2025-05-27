@@ -40,7 +40,8 @@
       "embed",
       "lumpsum-calculator",
       "goal-based-calculator",
-      "stepUp-calculator"
+      "stepUp-calculator",
+      "etf-fund"
     ]
   },
   {
