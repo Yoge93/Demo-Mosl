@@ -16859,3 +16859,96 @@ filteredCode.forEach((data) => {
 });
 
 
+// Market And EOD update
+
+const marketUpdate = {
+  success: true,
+  data: {
+    marketUpdatedata: [
+      {
+        currDate: "06-06-2025 15:19:59",
+        indexName: "Nifty 50",
+        currValue: "25000.45",
+        prevValue: "24750.9",
+        chg: "249.54999999999927",
+        perChange: "1.00824616478592",
+        ord: "1",
+      },
+      {
+        currDate: "06-06-2025 15:19:59",
+        indexName: "Nifty Midcap 100",
+        currValue: "59010.55",
+        prevValue: "58303",
+        chg: "707.5500000000029",
+        perChange: "1.21357391557896",
+        ord: "2",
+      },
+      {
+        currDate: "06-06-2025 15:26:00",
+        indexName: "BSE Sensex",
+        currValue: "82191.28",
+        prevValue: "81442.04",
+        chg: "749.2400000000052",
+        perChange: "0.919967132453958",
+        ord: "3",
+      },
+      {
+        currDate: "08-03-2025 04:30:00",
+        indexName: "Nasdaq 100",
+        currValue: "18130",
+        prevValue: "18014.25",
+        chg: "115.75",
+        perChange: "0.64",
+        ord: "4",
+      },
+    ],
+  },
+  message: "Successful",
+};
+
+const eodUpdate = {
+  success: true,
+  data: {
+    eodUpdatedata: [
+      {
+        currDate: "05-06-2025 00:00:00",
+        indexName: "Nifty 50",
+        currValue: "24750.9000",
+        prevValue: "24620.2000",
+        chg: "130.7000",
+        perChange: "0.5300",
+        ord: "2",
+      },
+      {
+        currDate: "05-06-2025 00:00:00",
+        indexName: "Nifty Midcap 100",
+        currValue: "58303.0000",
+        prevValue: "57924.6500",
+        chg: "378.3500",
+        perChange: "0.6500",
+        ord: "3",
+      },
+      {
+        currDate: "05-06-2025 00:00:00",
+        indexName: "BSE Sensex",
+        currValue: "81442.0400",
+        prevValue: "80998.2500",
+        chg: "443.7900",
+        perChange: "0.5400",
+        ord: "4",
+      },
+      {
+        currDate: "08-03-2025 04:30:00",
+        indexName: "Nasdaq 100",
+        currValue: "18130.0000",
+        prevValue: "18014.2500",
+        chg: "115.7500",
+        perChange: "0.6400",
+        ord: "5",
+      },
+    ],
+  },
+  message: "Successful",
+};
+
+
