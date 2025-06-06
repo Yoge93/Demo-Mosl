@@ -41,7 +41,8 @@
       "lumpsum-calculator",
       "goal-based-calculator",
       "stepUp-calculator",
-      "etf-fund"
+      "etf-fund",
+      "update-eod-market"
     ]
   },
   {
