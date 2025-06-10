@@ -42,7 +42,8 @@
       "goal-based-calculator",
       "stepUp-calculator",
       "etf-fund",
-      "update-eod-market"
+      "update-eod-market",
+      "nav-indicator"
     ]
   },
   {
