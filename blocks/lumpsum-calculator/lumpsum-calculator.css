@@ -1,6 +1,7 @@
 .lumpsum-calc-content,
 .goal-based-calc-content,
-.step-up-calc-content {
+.step-up-calc-content,
+.elss-sip-calc-content {
     max-width: 100%;
     margin: 0 auto;
     background-color: #dadfe4;
