@@ -41,6 +41,7 @@ export default function (block) {
   }
 
   const elssSIPCalc = document.querySelector(".elss-sip-calculator");
+  elssSIPCalc.innerHTML = '';
   // Calculator Content
   const elssSIPCalcContent = div(
     { class: "elss-sip-calc-content" },
