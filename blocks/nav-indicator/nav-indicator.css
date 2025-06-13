@@ -1,0 +1,13 @@
+@import url('../update-eod-market/update-eod-market.css');
+
+.update-table.nav-indicator-table{
+    max-width: 81%;
+    width: 100%;
+}
+
+.update-table.nav-indicator-table h3{
+    color: #2b2e8c;
+    font-size: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+}

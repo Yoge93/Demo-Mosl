@@ -1,4 +1,4 @@
-import { div, ul, li, img, h3, span, a} from "../../scripts/dom-helper.js";
+import { div, ul, li, img, h3, span, a } from "../../scripts/dom-helper.js";
 
 const fundBoost = {
   success: true,
@@ -16773,6 +16773,433 @@ const collectionNode = {
   },
 };
 
+const navAndPrice = {
+  success: true,
+  data: {
+    m50M100Data: [
+      {
+        secname: "M50",
+        currNav: "258.85",
+        currNavDate: "09-06-2025 15:31:18",
+        prevNAV: "257.69",
+        navChange: "1.16",
+        navPerChange: "0.45",
+        ord: "1",
+        schemeNameFull: "Motilal Oswal Nifty 50 ETF",
+      },
+      {
+        secname: "M50 iNAV",
+        currNav: "258.91",
+        currNavDate: "09-06-2025 16:00:55",
+        prevNAV: "257.95",
+        navChange: "0.96",
+        navPerChange: "0.37",
+        ord: "2",
+        schemeNameFull: "Motilal Oswal Nifty 50 ETF",
+      },
+      {
+        secname: "M100",
+        currNav: "64.05",
+        currNavDate: "09-06-2025 15:51:47",
+        prevNAV: "63.32",
+        navChange: "0.73",
+        navPerChange: "1.15",
+        ord: "3",
+        schemeNameFull: "Motilal Oswal Nifty Midcap 100 ETF",
+      },
+      {
+        secname: "M100 iNAV",
+        currNav: "63.95",
+        currNavDate: "09-06-2025 16:00:55",
+        prevNAV: "63.26",
+        navChange: "0.69",
+        navPerChange: "1.09",
+        ord: "4",
+        schemeNameFull: "Motilal Oswal Nifty Midcap 100 ETF",
+      },
+      {
+        secname: "MOFGSEC",
+        currNav: "61.84",
+        currNavDate: "09-06-2025 15:29:54",
+        prevNAV: "62",
+        navChange: "-0.16",
+        navPerChange: "-0.26",
+        ord: "5",
+        schemeNameFull: "Motilal Oswal Nifty 5 YR Benchmark G-Sec ETF",
+      },
+      {
+        secname: "MOFGSEC iNAV",
+        currNav: "61.91",
+        currNavDate: "09-06-2025 15:00:00",
+        prevNAV: "62.01",
+        navChange: "-0.10",
+        navPerChange: "-0.16",
+        ord: "6",
+        schemeNameFull: "Motilal Oswal Nifty 5 YR Benchmark G-Sec ETF",
+      },
+      {
+        secname: "MONIFTY200M30ETF",
+        currNav: "63.89",
+        currNavDate: "09-06-2025 15:43:16",
+        prevNAV: "63.43",
+        navChange: "0.46",
+        navPerChange: "0.73",
+        ord: "7",
+        schemeNameFull: "Motilal Oswal Nifty 200 Momentum 30 ETF",
+      },
+      {
+        secname: "MONIFTY200M30ETF iNAV",
+        currNav: "63.99",
+        currNavDate: "09-06-2025 16:00:51",
+        prevNAV: "63.54",
+        navChange: "0.45",
+        navPerChange: "0.71",
+        ord: "8",
+        schemeNameFull: "Motilal Oswal Nifty 200 Momentum 30 ETF",
+      },
+      {
+        secname: "MOMOBSELVETF",
+        currNav: "37.54",
+        currNavDate: "09-06-2025 15:41:38",
+        prevNAV: "37.41",
+        navChange: "0.13",
+        navPerChange: "0.35",
+        ord: "9",
+        schemeNameFull: "Motilal Oswal S&P BSE Low Volatility ETF",
+      },
+      {
+        secname: "MOMOBSELVETF iNAV",
+        currNav: "37.63",
+        currNavDate: "09-06-2025 16:00:51",
+        prevNAV: "37.48",
+        navChange: "0.15",
+        navPerChange: "0.39",
+        ord: "10",
+        schemeNameFull: "Motilal Oswal S&P BSE Low Volatility ETF",
+      },
+      {
+        secname: "MOSPBSEHCETF",
+        currNav: "43.78",
+        currNavDate: "09-06-2025 15:41:11",
+        prevNAV: "43.55",
+        navChange: "0.23",
+        navPerChange: "0.53",
+        ord: "11",
+        schemeNameFull: "Motilal Oswal S&P BSE Healthcare ETF",
+      },
+      {
+        secname: "MOSPBSEHCETF iNAV",
+        currNav: "43.78",
+        currNavDate: "09-06-2025 16:00:51",
+        prevNAV: "43.63",
+        navChange: "0.15",
+        navPerChange: "0.35",
+        ord: "12",
+        schemeNameFull: "Motilal Oswal S&P BSE Healthcare ETF",
+      },
+      {
+        secname: "MOSPBSEEVETF",
+        currNav: "104.42",
+        currNavDate: "09-06-2025 15:51:45",
+        prevNAV: "103.07",
+        navChange: "1.35",
+        navPerChange: "1.31",
+        ord: "13",
+        schemeNameFull: "Motilal Oswal S&P BSE Enhanced Value ETF",
+      },
+      {
+        secname: "MOSPBSEEVETF iNAV",
+        currNav: "104.54",
+        currNavDate: "09-06-2025 16:00:51",
+        prevNAV: "103.32",
+        navChange: "1.22",
+        navPerChange: "1.19",
+        ord: "14",
+        schemeNameFull: "Motilal Oswal S&P BSE Enhanced Value ETF",
+      },
+      {
+        secname: "MOSPBSEQETF",
+        currNav: "195.61",
+        currNavDate: "09-06-2025 15:51:29",
+        prevNAV: "193.74",
+        navChange: "1.87",
+        navPerChange: "0.97",
+        ord: "15",
+        schemeNameFull: "Motilal Oswal S&P BSE Quality ETF",
+      },
+      {
+        secname: "MOSPBSEQETF iNAV",
+        currNav: "196.02",
+        currNavDate: "09-06-2025 15:59:51",
+        prevNAV: "194.18",
+        navChange: "1.83",
+        navPerChange: "0.94",
+        ord: "16",
+        schemeNameFull: "Motilal Oswal S&P BSE Quality ETF",
+      },
+      {
+        secname: "MON500",
+        currNav: "23.65",
+        currNavDate: "09-06-2025 15:56:30",
+        prevNAV: "23.34",
+        navChange: "0.31",
+        navPerChange: "1.33",
+        ord: "17",
+        schemeNameFull: "Motilal Oswal Nifty 500 ETF",
+      },
+      {
+        secname: "MON500 iNAV",
+        currNav: "23.60",
+        currNavDate: "09-06-2025 16:00:51",
+        prevNAV: "23.44",
+        navChange: "0.16",
+        navPerChange: "0.68",
+        ord: "18",
+        schemeNameFull: "Motilal Oswal Nifty 500 ETF",
+      },
+      {
+        secname: "MOSMALL250",
+        currNav: "17.54",
+        currNavDate: "09-06-2025 15:58:02",
+        prevNAV: "17.26",
+        navChange: "0.28",
+        navPerChange: "1.62",
+        ord: "19",
+        schemeNameFull: "Motilal Oswal Nifty Smallcap 250 ETF",
+      },
+      {
+        secname: "MOSMALL250 iNAV",
+        currNav: "17.53",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "17.3",
+        navChange: "0.23",
+        navPerChange: "1.32",
+        ord: "20",
+        schemeNameFull: "Motilal Oswal Nifty Smallcap 250 ETF",
+      },
+      {
+        secname: "MOREALTY",
+        currNav: "103.58",
+        currNavDate: "09-06-2025 15:59:43",
+        prevNAV: "103.9",
+        navChange: "-0.32",
+        navPerChange: "-0.31",
+        ord: "21",
+        schemeNameFull: "Motilal Oswal Nifty Realty ETF",
+      },
+      {
+        secname: "MOREALTY iNAV",
+        currNav: "103.67",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "103.83",
+        navChange: "-0.16",
+        navPerChange: "-0.15",
+        ord: "22",
+        schemeNameFull: "Motilal Oswal Nifty Realty ETF",
+      },
+      {
+        secname: "MODEFENCE",
+        currNav: "97.53",
+        currNavDate: "09-06-2025 15:57:22",
+        prevNAV: "97.8",
+        navChange: "-0.27",
+        navPerChange: "-0.28",
+        ord: "23",
+        schemeNameFull: "Motilal Oswal Nifty India Defence ETF",
+      },
+      {
+        secname: "MODEFENCE iNAV",
+        currNav: "97.63",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "97.83",
+        navChange: "-0.20",
+        navPerChange: "-0.21",
+        ord: "24",
+        schemeNameFull: "Motilal Oswal Nifty India Defence ETF",
+      },
+      {
+        secname: "MOMENTUM50",
+        currNav: "54.49",
+        currNavDate: "09-06-2025 15:54:08",
+        prevNAV: "54.14",
+        navChange: "0.35",
+        navPerChange: "0.65",
+        ord: "25",
+        schemeNameFull: "Motilal Oswal Nifty 500 Momentum 50 ETF",
+      },
+      {
+        secname: "MOMENTUM50 iNAV",
+        currNav: "54.50",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "54.03",
+        navChange: "0.48",
+        navPerChange: "0.89",
+        ord: "26",
+        schemeNameFull: "Motilal Oswal Nifty 500 Momentum 50 ETF",
+      },
+      {
+        secname: "MOCAPITAL",
+        currNav: "47.61",
+        currNavDate: "09-06-2025 15:57:55",
+        prevNAV: "46.67",
+        navChange: "0.94",
+        navPerChange: "2.01",
+        ord: "27",
+        schemeNameFull: "Motilal Oswal Nifty Capital Market ETF",
+      },
+      {
+        secname: "MOCAPITAL iNAV",
+        currNav: "47.40",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "46.43",
+        navChange: "0.98",
+        navPerChange: "2.10",
+        ord: "28",
+        schemeNameFull: "Motilal Oswal Nifty Capital Market ETF",
+      },
+      {
+        secname: "MON50EQUAL",
+        currNav: "31.50",
+        currNavDate: "09-06-2025 15:29:04",
+        prevNAV: "31.2",
+        navChange: "0.30",
+        navPerChange: "0.96",
+        ord: "29",
+        schemeNameFull: "Motilal Oswal Nifty 50 Equal Weight ETF",
+      },
+      {
+        secname: "MON50EQUAL iNAV",
+        currNav: "31.48",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "31.29",
+        navChange: "0.20",
+        navPerChange: "0.64",
+        ord: "30",
+        schemeNameFull: "Motilal Oswal Nifty 50 Equal Weight ETF",
+      },
+      {
+        secname: "MONEXT50",
+        currNav: "68.05",
+        currNavDate: "09-06-2025 15:31:19",
+        prevNAV: "67.21",
+        navChange: "0.84",
+        navPerChange: "1.25",
+        ord: "31",
+        schemeNameFull: "Motilal Oswal Nifty Next 50 ETF",
+      },
+      {
+        secname: "MONEXT50 iNAV",
+        currNav: "68.19",
+        currNavDate: "09-06-2025 16:31:10",
+        prevNAV: "67.39",
+        navChange: "0.80",
+        navPerChange: "1.18",
+        ord: "32",
+        schemeNameFull: "Motilal Oswal Nifty Next 50 ETF",
+      },
+      {
+        secname: "MOINFRA",
+        currNav: "61.80",
+        currNavDate: "09-06-2025 15:31:33",
+        prevNAV: "60.99",
+        navChange: "0.81",
+        navPerChange: "1.33",
+        ord: "34",
+        schemeNameFull: "Motilal Oswal BSE India Infrastructure ETF",
+      },
+      {
+        secname: "MOINFRA iNAV",
+        currNav: "60.08",
+        currNavDate: "27-05-2025 09:02:50",
+        prevNAV: "60.09",
+        navChange: "-0.01",
+        navPerChange: "-0.02",
+        ord: "35",
+        schemeNameFull: "Motilal Oswal BSE India Infrastructure ETF",
+      },
+      {
+        secname: "MOMGF",
+        currNav: "143.49",
+        currNavDate: "09-06-2025 15:31:14",
+        prevNAV: "142.29",
+        navChange: "1.20",
+        navPerChange: "0.84",
+        ord: "35",
+        schemeNameFull: "Motilal Oswal Nifty India Manufacturing ETF",
+      },
+      {
+        secname: "MOMGF iNAV",
+        currNav: "141.25",
+        currNavDate: "28-05-2025 09:31:10",
+        prevNAV: "141.47",
+        navChange: "-0.22",
+        navPerChange: "-0.15",
+        ord: "36",
+        schemeNameFull: "Motilal Oswal Nifty India Manufacturing ETF",
+      },
+      {
+        secname: "MOPSE",
+        currNav: "100.86",
+        currNavDate: "09-06-2025 15:31:10",
+        prevNAV: "99.8",
+        navChange: "1.06",
+        navPerChange: "1.06",
+        ord: "36",
+        schemeNameFull: "Motilal Oswal Nifty PSE ETF",
+      },
+      {
+        secname: "MOPSE iNAV",
+        currNav: "98.91",
+        currNavDate: "05-06-2025 16:59:50",
+        prevNAV: "98.49",
+        navChange: "0.41",
+        navPerChange: "0.42",
+        ord: "37",
+        schemeNameFull: "Motilal Oswal Nifty PSE ETF",
+      },
+    ],
+    n100Data: [
+      {
+        secname: "MOFN100FOF",
+        currNav: "180.51",
+        currNavDate: "09-06-2025 15:59:14",
+        prevNAV: "180.32",
+        navChange: "0.18999999999999773",
+        navPerChange: "0.105368234250221",
+        ord: "1",
+      },
+      {
+        secname: "MONQ50",
+        currNav: "74.66",
+        currNavDate: "09-06-2025 15:58:06",
+        prevNAV: "73.96",
+        navChange: "0.7000000000000028",
+        navPerChange: "0.946457544618717",
+        ord: "1",
+      },
+      {
+        secname: "MOFN100FOF iNAV",
+        currNav: "182.06259623132135",
+        currNavDate: "09-06-2025 16:30:50",
+        prevNAV: "182.1344",
+        navChange: "-0.0718037686786488",
+        navPerChange: "-0.039423507409170805",
+        ord: "2",
+      },
+      {
+        secname: "MONQ50 iNAV",
+        currNav: "72.32141092003982",
+        currNavDate: "09-06-2025 16:30:50",
+        prevNAV: "72.3498",
+        navChange: "-0.02838907996017781",
+        navPerChange: "-0.039238643313703435",
+        ord: "2",
+      },
+    ],
+  },
+  message: "Successful",
+};
+
 // gettig all schemes from collection node
 const etfTYpe = collectionNode.data.fundType.filter((type) => {
   if (type.typeName == "ETFs") {
@@ -16784,7 +17211,7 @@ const schemes = etfTYpe[0].schemes;
 // console.log(schemes);
 
 // checking if any schemes is matching with schCode from fundboost
-const filteredCode = fundBoost.data.data.filter((fundcode) => {
+export const filteredCode = fundBoost.data.data.filter((fundcode) => {
   for (let i = 0; i < schemes.length; i++) {
     if (fundcode.schCode == schemes[i]) {
       return fundcode;
@@ -16793,11 +17220,23 @@ const filteredCode = fundBoost.data.data.filter((fundcode) => {
 });
 console.log(filteredCode);
 
+// There is filteredCode is 20 and navAndPrice is more than 20, Now need to filter which navAndPrice is matching to filteredCode is stored into filteredNavDetail
+export const filteredNavDetail = navAndPrice.data.m50M100Data.filter((navDetail) => {
+  if (navDetail.secname.includes("iNAV")) {
+    for (let i = 0; i < filteredCode.length; i++) {
+      if (navDetail.secname.split(' ')[0] == filteredCode[i]?.schDetail?.cmots_productcode) {
+        return navDetail;
+      }
+    }
+  }
+});
+console.log(filteredNavDetail);
+
 // Card Structure create
 const etfCardMain = document.querySelector(".etf-fund");
-etfCardMain.innerHTML ="";
+etfCardMain.innerHTML = "";
 
-const cardsContent = function cardsContainer(item) {
+const cardsContent = function cardsContainer(item, navValue) {
   return div(
     { class: "card" },
     div(
@@ -16809,11 +17248,14 @@ const cardsContent = function cardsContainer(item) {
           alt: "logo",
         }),
         h3(
-          a({href: `${window.location.href}/${item.schDetail?.schNameURL}`}, item.schDetail?.schName || '')
+          a(
+            { href: `${window.location.href}/${item.schDetail?.schNameURL}` },
+            item.schDetail?.schName || ""
+          )
         )
       ),
       ul({ class: "fund-tags" }, ...(item.tags?.map((tag) => li(tag)) || []))
-    ),  
+    ),
     div(
       { class: "bottom-content" },
       div(
@@ -16821,12 +17263,12 @@ const cardsContent = function cardsContainer(item) {
         div(
           { class: "fund-data-content" },
           h3("Current iNAV"),
-          span({ class: "nav-value" }, "31.12")
+          span({ class: "nav-value" }, navValue?.currNav)
         ),
         div(
           { class: "fund-data-content" },
           h3("Previous iNAV"),
-          span({ class: "nav-value" }, "31.12")
+          span({ class: "nav-value" }, navValue?.prevNAV)
         ),
         div(
           { class: "fund-data-content" },
@@ -16854,101 +17296,10 @@ const cardsContent = function cardsContainer(item) {
 };
 
 filteredCode.forEach((data) => {
-  const card = cardsContent(data);
-  etfCardMain.appendChild(card);
+  for (let i = 0; i < filteredNavDetail.length; i++) {
+    if (data?.schDetail?.cmots_productcode == filteredNavDetail[i]?.secname.split(' ')[0]) {
+      const card = cardsContent(data,filteredNavDetail[i]);
+      etfCardMain.appendChild(card);
+    }
+  };
 });
-
-
-// Market And EOD update
-
-const marketUpdate = {
-  success: true,
-  data: {
-    marketUpdatedata: [
-      {
-        currDate: "06-06-2025 15:19:59",
-        indexName: "Nifty 50",
-        currValue: "25000.45",
-        prevValue: "24750.9",
-        chg: "249.54999999999927",
-        perChange: "1.00824616478592",
-        ord: "1",
-      },
-      {
-        currDate: "06-06-2025 15:19:59",
-        indexName: "Nifty Midcap 100",
-        currValue: "59010.55",
-        prevValue: "58303",
-        chg: "707.5500000000029",
-        perChange: "1.21357391557896",
-        ord: "2",
-      },
-      {
-        currDate: "06-06-2025 15:26:00",
-        indexName: "BSE Sensex",
-        currValue: "82191.28",
-        prevValue: "81442.04",
-        chg: "749.2400000000052",
-        perChange: "0.919967132453958",
-        ord: "3",
-      },
-      {
-        currDate: "08-03-2025 04:30:00",
-        indexName: "Nasdaq 100",
-        currValue: "18130",
-        prevValue: "18014.25",
-        chg: "115.75",
-        perChange: "0.64",
-        ord: "4",
-      },
-    ],
-  },
-  message: "Successful",
-};
-
-const eodUpdate = {
-  success: true,
-  data: {
-    eodUpdatedata: [
-      {
-        currDate: "05-06-2025 00:00:00",
-        indexName: "Nifty 50",
-        currValue: "24750.9000",
-        prevValue: "24620.2000",
-        chg: "130.7000",
-        perChange: "0.5300",
-        ord: "2",
-      },
-      {
-        currDate: "05-06-2025 00:00:00",
-        indexName: "Nifty Midcap 100",
-        currValue: "58303.0000",
-        prevValue: "57924.6500",
-        chg: "378.3500",
-        perChange: "0.6500",
-        ord: "3",
-      },
-      {
-        currDate: "05-06-2025 00:00:00",
-        indexName: "BSE Sensex",
-        currValue: "81442.0400",
-        prevValue: "80998.2500",
-        chg: "443.7900",
-        perChange: "0.5400",
-        ord: "4",
-      },
-      {
-        currDate: "08-03-2025 04:30:00",
-        indexName: "Nasdaq 100",
-        currValue: "18130.0000",
-        prevValue: "18014.2500",
-        chg: "115.7500",
-        perChange: "0.6400",
-        ord: "5",
-      },
-    ],
-  },
-  message: "Successful",
-};
-
-

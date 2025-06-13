@@ -1,0 +1,77 @@
+.update-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 30px;
+    max-width: 1154px;
+    margin: 0 auto;
+}
+
+.update-container .update-table {
+    max-width: 49%;
+}
+
+.update-container .update-table h3 {
+    color: #27306b;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.table-wrapper .table-content {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+
+}
+
+.table-wrapper tr th,
+.table-wrapper tr td {
+    border: 1px solid #dee2e6;
+    padding: 10px 20px;
+}
+
+.table-wrapper tr th {
+    background: #272e59;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.table-wrapper tr td {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: sans-serif;
+}
+
+.table-wrapper tr td:not(:first-child){
+    text-align: center;
+}0///00??????????????????????????cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccfv?
+
+.table-wrapper tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.etf-navTime {
+    color: #616161;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 9px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.update-container .update-desc {
+    width: 100%;
+    color: #6a738a;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
