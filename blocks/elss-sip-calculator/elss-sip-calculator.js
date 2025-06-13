@@ -247,6 +247,9 @@ export default function (block) {
         type: "pie",
         backgroundColor: "transparent",
       },
+      credits: {
+        enabled: false,
+      },
       title: {
         text: "ELSS SIP Calculator Chart",
         style: {
