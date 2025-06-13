@@ -1,4 +1,6 @@
-.lumpsum-calc-content {
+.lumpsum-calc-content,
+.goal-based-calc-content,
+.step-up-calc-content {
     max-width: 100%;
     margin: 0 auto;
     background-color: #dadfe4;
