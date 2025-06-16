@@ -44,7 +44,9 @@
       "etf-fund",
       "update-eod-market",
       "nav-indicator",
-      "elss-sip-calculator"
+      "elss-sip-calculator",
+      "hero-carousel-title",
+      "hero-slider-tab"
     ]
   },
   {

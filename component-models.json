@@ -1008,5 +1008,46 @@
         "label": "Enter popup path"
       }
     ]
+  },
+  {
+    "id": "hero-carousel-title",
+    "fields": [
+      {
+        "component": "text",
+        "name": "title",
+        "label": "Hero Carousel Title"
+      },
+      {
+        "component": "select",
+        "name": "titleType",
+        "label": "Carousel Title Type",
+        "options": [
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hero-slider-tab-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Slider Tab List",
+        "valueType": "string"
+      }
+    ]
   }
 ]

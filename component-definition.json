@@ -828,6 +828,52 @@
               }
             }
           }
+        },
+        {
+          "title": "Hero Carousel Title",
+          "id": "hero-carousel-title",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero Carousel Title",
+                  "model": "hero-carousel-title",
+                  "filter": "hero-carousel-title"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero Slider Tab",
+          "id": "hero-slider-tab",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Hero Slider Tab",
+                  "filter": "hero-slider-tab"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "Hero Slider Tab Item",
+          "id": "hero-slider-tab-item",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Hero Slider Tab Item",
+                  "model": "hero-slider-tab-item"
+                }
+              }
+            }
+          }
         }
       ]
     }
