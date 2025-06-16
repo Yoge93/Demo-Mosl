@@ -164,6 +164,12 @@
     "components":[
       "show-modal-item"
     ]
+  },
+  {
+    "id": "hero-slider-tab",
+    "components":[
+      "hero-slider-tab-item"
+    ]
   }
   
 ]
