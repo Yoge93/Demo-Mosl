@@ -1,1 +1,108 @@
-@import url('../hero-slider-tab/hero-carousel.min.css');
+@import url('hero-carousel.min.css');
+
+.section.hero-slider-container .hero-slider-wrapper {
+    padding: 0;
+    max-width: 1286px;
+}
+
+.hero-slider {
+    padding-top: 56px;
+    position: relative;
+}
+
+.hero-slider .swiper-wrapper .inner-content {
+    display: flex;
+    /* align-items: center; */
+}
+
+.inner-content .inner-subinner-1 {
+    padding: 22px 48px 0 0;
+    max-width: 35.85%;
+    width: 35.85%;
+}
+
+.inner-subinner-1 h3{
+    padding-bottom: 12px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #a5a5a5;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #303030;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inner-subinner-1 h3::before{
+    content: '';
+    width: 6px;
+    height: 25px;
+    background-color: #ee2326;
+    display: block;
+    clip-path: polygon(0 0, 100% 25%, 100% 100%, 0% 75%);
+}
+
+.inner-content .inner-subinner-2 {
+    display: flex;
+    gap: 46px;
+}
+
+.hero-slider .btnWrapper {
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btnWrapper .swiper-pagination {
+    position: absolute;
+    bottom: unset;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    display: flex;
+    max-width: 1028px;
+    margin: 0 auto;
+}
+
+.btnWrapper .swiper-pagination .swiper-pagination-bullet {
+    width: max-content;
+    height: 100%;
+    opacity: unset;
+    background: unset;
+    border-radius: unset;
+    margin: 0;
+    padding: 0 22px;
+    border-right: 1px solid #a5a5a5;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #303030;
+}
+
+.btnWrapper .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    color: #ee2326;
+    font-weight: 700;
+}
+
+.btnWrapper .swiper-pagination .swiper-pagination-bullet:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+.btnWrapper .swiper-button-prev,
+.btnWrapper .swiper-button-next {
+    top: 0;
+    bottom: unset;
+    color: #fff;
+    background-color: #ee2326;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.btnWrapper .swiper-button-prev::after,
+.btnWrapper .swiper-button-next::after {
+    font-size: 22px;
+}

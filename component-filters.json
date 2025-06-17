@@ -45,7 +45,10 @@
       "update-eod-market",
       "nav-indicator",
       "elss-sip-calculator",
-      "hero-slider"
+      "hero-slider",
+      "flexicap-fund-content",
+      "flexicap-fund-embed",
+      "flexicap-fund-modal"
     ]
   },
   {
@@ -169,6 +172,18 @@
     "id": "hero-slider",
     "components":[
       "hero-slider-item"
+    ]
+  },
+  {
+    "id": "flexicap-fund-content",
+    "components":[
+      "flexicap-fund-content-item"
+    ]
+  },
+  {
+    "id": "flexicap-fund-modal",
+    "components":[
+      "flexicap-fund-modal-item"
     ]
   }
   
