@@ -1010,13 +1010,48 @@
     ]
   },
   {
-    "id": "hero-slider-tab-item",
+    "id": "hero-slider-item",
     "fields": [
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "text",
+        "name": "title",
         "value": "",
-        "label": "Slider Tab List",
+        "label": "Tab Title",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "col1_text",
+        "value": "",
+        "label": "Slider Content",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col2_imagepath",
+        "value": "",
+        "label": "Center Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col2_imagepathAlt",
+        "value": "",
+        "label": "Center Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col2_imagepath",
+        "value": "",
+        "label": "Right Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col2_imagepathAlt",
+        "value": "",
+        "label": "Right Image Alt",
         "valueType": "string"
       }
     ]

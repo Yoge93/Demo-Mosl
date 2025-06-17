@@ -45,7 +45,7 @@
       "update-eod-market",
       "nav-indicator",
       "elss-sip-calculator",
-      "hero-slider-tab"
+      "hero-slider"
     ]
   },
   {
@@ -166,9 +166,9 @@
     ]
   },
   {
-    "id": "hero-slider-tab",
+    "id": "hero-slider",
     "components":[
-      "hero-slider-tab-item"
+      "hero-slider-item"
     ]
   }
   
