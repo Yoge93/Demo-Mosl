@@ -853,7 +853,7 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Hero Slider Item",
-                  "filter": "hero-slider-item"
+                  "model": "hero-slider-item"
                 }
               }
             }
