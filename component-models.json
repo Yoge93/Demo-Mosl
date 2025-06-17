@@ -1028,28 +1028,28 @@
       },
       {
         "component": "reference",
-        "name": "col2_imagepath",
+        "name": "col2_centerImagepath",
         "value": "",
         "label": "Center Image Source",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "col2_imagepathAlt",
+        "name": "col2_centerImagepathAlt",
         "value": "",
         "label": "Center Image Alt",
         "valueType": "string"
       },
       {
         "component": "reference",
-        "name": "col3_imagepath",
+        "name": "col2_rightImagepath",
         "value": "",
         "label": "Right Image Source",
         "valueType": "string"
       },
       {
         "component": "text",
-        "name": "col3_imagepathAlt",
+        "name": "col2_rightImagepathAlt",
         "value": "",
         "label": "Right Image Alt",
         "valueType": "string"
