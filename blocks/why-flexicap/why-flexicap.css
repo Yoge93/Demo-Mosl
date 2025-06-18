@@ -1,0 +1,24 @@
+.section.why-flexicap-container{
+    background-color: lavender;
+    max-width: 1154px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section.why-flexicap-container > div{
+    padding: 0;
+}
+
+.why-flexicap-container h2{
+    color: #2b2e8c;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 45px 0;
+    text-align: center;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-2{
+    
+}
