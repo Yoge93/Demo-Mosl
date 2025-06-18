@@ -1,16 +1,17 @@
-.section.why-flexicap-container{
-    background-color: lavender;
-    max-width: 1154px;
+@import url('../why-flexicap/swiper.min.css');
+
+.section.why-flexicap-container {
+    /* background-color: lavender; */
+    max-width: 1124px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
-.section.why-flexicap-container > div{
+.section.why-flexicap-container>div {
     padding: 0;
 }
 
-.why-flexicap-container h2{
+.why-flexicap-container h2 {
     color: #2b2e8c;
     font-size: 40px;
     font-weight: 700;
@@ -19,6 +20,74 @@
     text-align: center;
 }
 
-.why-flexicap .flexicap-inner-content .flexicap-subinner-2{
-    
+.why-flexicap.flexicap-desktop-hide .flexicap-inner-content .flexicap-subinner-2 {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .why-flexicap.flexicap-mobile-hide .flexicap-inner-content .flexicap-subinner-0,
+    .why-flexicap.flexicap-mobile-hide .flexicap-inner-content .flexicap-subinner-1 {
+        display: none;
+    }
+
+    .why-flexicap.flexicap-desktop-hide .flexicap-inner-content .flexicap-subinner-2 {
+        display: block;
+    }
+}
+
+.why-flexicap .flexicap-inner-content {
+    display: flex;
+    gap: 39px;
+    align-items: center;
+    padding: 0 24px 0 15px;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-0 {
+    max-width: 31.71%;
+    width: 100%;
+    display: flex;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-0 .subinner-content {
+    margin: 0;
+    width: 100%;
+    padding: 18px 43px;
+    border-radius: 10px 0 0 10px;
+    background-color: #44479e;
+    /* color: #231f20; */
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-0::after {
+    content: '';
+    border-top: 32px solid transparent;
+    border-left: 22px solid #44479e;
+    border-bottom: 32px solid transparent;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-1 {
+    max-width: 68.29%;
+    width: 100%;
+    padding-top: 24px;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-1 .subinner-content:nth-of-type(2) {
+    color: #231f20;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.why-flexicap .flexicap-inner-content .flexicap-subinner-1 .subinner-content:nth-of-type(3) {
+    color: #bfbfbf;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
 }
