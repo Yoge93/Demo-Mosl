@@ -1120,7 +1120,7 @@
         "component": "richtext",
         "name": "col1_text",
         "value": "",
-        "label": "Why Flexicap Title and Description",
+        "label": "Why Flexicap Description",
         "valueType": "string"
       },
       {
