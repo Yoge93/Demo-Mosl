@@ -1111,6 +1111,16 @@
     "id": "why-flexicap-content",
     "fields": [
       {
+        "component": "select",
+        "name": "classes",
+        "label": "Select Class For Show/Hide",
+        "valueType": "string",
+        "options": [
+          { "name": "Flexicap Desktop Hide", "value": "flexicap-desktop-hide" },
+          { "name": "Flexicap Mobile Hide", "value": "flexicap-mobile-hide" }
+        ]
+      },
+      {
         "component": "text",
         "name": "text",
         "value": "",
