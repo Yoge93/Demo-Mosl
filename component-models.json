@@ -1091,5 +1091,52 @@
         "label": "Enter popup path"
       }
     ]
+  },
+  {
+    "id": "why-flexicap-content",
+    "fields":[
+      {
+        "component": "text",
+        "name": "text",
+        "value": "",
+        "label": "Why flexicap tab title",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col1_imagepath",
+        "value": "",
+        "label": "Desktop Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col1_imagepathAlt",
+        "value": "",
+        "label": "Desktop Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "col1_text",
+        "value": "",
+        "label": "Why Flexicap Title and Description",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "col2_imagepath",
+        "value": "",
+        "label": "Mobile Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "col2_imagepathAlt",
+        "value": "",
+        "label": "Mobile Image Alt",
+        "valueType": "string"
+      }
+    ]
   }
 ]

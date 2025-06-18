@@ -47,7 +47,8 @@
       "elss-sip-calculator",
       "hero-slider",
       "flexicap-fund-content",
-      "flexicap-fund-modal"
+      "flexicap-fund-modal",
+      "why-flexicap"
     ]
   },
   {
@@ -183,6 +184,12 @@
     "id": "flexicap-fund-modal",
     "components":[
       "flexicap-fund-modal-item"
+    ]
+  },
+  {
+    "id": "why-flexicap",
+    "components":[
+      "why-flexicap-content"
     ]
   }
   
