@@ -48,7 +48,8 @@
       "hero-slider",
       "flexicap-fund-content",
       "flexicap-fund-modal",
-      "why-flexicap"
+      "why-flexicap",
+      "flexicap-tab"
     ]
   },
   {
@@ -190,6 +191,12 @@
     "id": "why-flexicap",
     "components":[
       "why-flexicap-content"
+    ]
+  },
+  {
+    "id": "flexicap-tab",
+    "components":[
+      "flexicap-tab-content"
     ]
   }
   
