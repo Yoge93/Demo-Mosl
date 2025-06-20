@@ -1180,6 +1180,58 @@
     ]
   },
   {
+    "id": "poona-fincorp-blogs",
+    "fields":[
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Multiselect field",
+        "valueType": "string",
+        "required": true,
+        "options": [
+          {
+            "name": "Mobile Setting",
+            "children": [
+              {
+                "name": "Auto Scroll",
+                "value": "mobile-auto-scroll"
+              },
+              {
+                "name": "1.5 View",
+                "value": "one-point-five-view"
+              },
+              {
+                "name": "2.5 View",
+                "value": "two-point-five-view"
+              },
+              {
+                "name": "3.5 View",
+                "value": "three-point-five-view"
+              }
+            ]
+          },
+          {
+            "name": "Desktop Setting",
+            "children": [
+              {
+                "name": "Pagination",
+                "value": "desk-pagination"
+              },
+              {
+                "name": "Action Button",
+                "value": "left-right-navigation-btn"
+              },
+              {
+                "name": "3 View",
+                "value": "three-point-view"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id":"poona-fincorp-blogs-item",
     "fields":[
       {
