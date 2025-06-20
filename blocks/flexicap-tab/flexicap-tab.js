@@ -2,6 +2,15 @@
 import { toClassName } from "../../scripts/aem.js";
 import accordion from "../accordion/accordion.js"
 export default async function decorate(block) {
+    Array.from(document.querySelector(".flexicap-tab").children).forEach(
+      (el) => {
+        Array.from(el.children).filter((el) => {
+          if (el.innerHTML == "") {
+            el.remove();
+          }
+        });
+      }
+    );
   if (window.matchMedia("(min-width: 1024px)").matches) {
     // build tablist
     const tablist = document.createElement("div");
@@ -57,7 +66,6 @@ export default async function decorate(block) {
 
     block.prepend(tabListWrapper, tabPanelWrapper);
   }else{
-    debugger
-    accordion(block.children)
+   accordion(block)
   }
 }
