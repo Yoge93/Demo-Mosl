@@ -199,6 +199,12 @@
     "components":[
       "flexicap-tab-content"
     ]
+  },
+  {
+    "id": "poona-fincorp-blogs",
+    "components":[
+      "poona-fincorp-blogs-item"
+    ]
   }
   
 ]
