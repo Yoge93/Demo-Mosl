@@ -1256,5 +1256,38 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "idfc-banner-img",
+    "fields":[
+      {
+        "component": "reference",
+        "name": "deskImagepath",
+        "value": "",
+        "label": "Desktop Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "deskImagepathAlt",
+        "value": "",
+        "label": "Desktop Image Alt",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "mobImagepath",
+        "value": "",
+        "label": "Mobile Image Source",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "mobImagepathAlt",
+        "value": "",
+        "label": "Mobile Image Alt",
+        "valueType": "string"
+      }
+    ]
   }
 ]

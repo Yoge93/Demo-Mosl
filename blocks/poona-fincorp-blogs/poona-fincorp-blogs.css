@@ -1,14 +1,15 @@
-.poona-fincorp-blogs-container{
+/* @import url('../swiper/swiper.css'); */
+.poona-fincorp-blogs-container {
     padding: 0 10px 0 102px;
 }
 
 .poona-fincorp-blogs-container .default-content-wrapper,
-.poona-fincorp-blogs-container .poona-fincorp-blogs-wrapper{
+.poona-fincorp-blogs-container .poona-fincorp-blogs-wrapper {
     padding: 0;
     margin: 0;
 }
 
-.poona-fincorp-blogs-container h2{
+.poona-fincorp-blogs-container h2 {
     padding-bottom: 71px;
     font-family: sans-serif;
     font-weight: 500;
@@ -17,11 +18,11 @@
     margin: 0;
 }
 
-.poona-fincorp-blogs-container .poona-fincorp-blogs-wrapper{
+.poona-fincorp-blogs-container .poona-fincorp-blogs-wrapper {
     max-width: 100%;
 }
 
-.poona-fincorp-blogs{
+.poona-fincorp-blogs {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -29,32 +30,33 @@
     margin: 0;
 }
 
-.poona-fincorp-blogs .blogs-content{
+.poona-fincorp-blogs .blogs-content {
     display: flex;
     gap: 20px;
     border-bottom: 1.5px solid rgb(35 31 32 / .4);
     padding-bottom: 40px;
 }
 
-.blogs-content .blog-item-1{
+.blogs-content .blog-item-1 {
     max-width: 350px;
     height: 210px;
     width: 100%;
 }
-.blogs-content .blog-item-1 img{
+
+.blogs-content .blog-item-1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.blogs-content .blog-item-2{
+.blogs-content .blog-item-2 {
     display: flex;
     flex-direction: column;
     max-width: 29.18%;
     width: 100%;
 }
 
-.blogs-content .blog-item-2 p:nth-child(1){
+.blogs-content .blog-item-2 p:nth-child(1) {
     font-size: 18px;
     font-family: sans-serif;
     font-weight: 400;
@@ -64,11 +66,11 @@
     margin: 0;
 }
 
-.blogs-content .blog-item-2 p:nth-child(2).button-container{
-    margin: 17px 0 22px;
+.blogs-content .blog-item-2 p:nth-child(2).button-container {
+    margin: 17px 0 0;
 }
 
-.blogs-content .blog-item-2 p:nth-child(2).button-container .button{
+.blogs-content .blog-item-2 p:nth-child(2).button-container .button {
     margin: 0;
     padding: 0;
     background-color: transparent;
@@ -83,6 +85,23 @@
     text-align: unset;
 }
 
-.blogs-content .blog-item-2 p:nth-child(3){
+.blogs-content .blog-item-2 p:nth-child(3) {
     margin-top: auto;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .poona-fincorp-blogs-container {
+        padding: 0 15px;
+    }
+
+    .poona-fincorp-blogs .blogs-content {
+        flex-direction: column;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .poona-fincorp-blogs .blogs-content .blog-item-2 {
+        max-width: 100%;
+    }
 }

@@ -7,6 +7,7 @@ export default function decorate(block) {
             el.classList.add(`blog-item-${i+1}`)
         })
     }))
-
-    
+    if (window.innerWidth < 768) {
+        SwiperBlock(block)
+    }
 }

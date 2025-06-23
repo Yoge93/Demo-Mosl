@@ -1,7 +1,6 @@
 @import url('../why-flexicap/swiper.min.css');
 
 .section.why-flexicap-container {
-    /* background-color: lavender; */
     max-width: 1124px;
     width: 100%;
     margin: 0 auto;
@@ -36,14 +35,8 @@
     }
 }
 
-.why-flexicap .flexicap-inner-content {
-    /* display: flex;
-    gap: 39px;
-    align-items: center;
-    padding: 0 24px 0 15px; */
-    /* max-width: 100%; */
+.why-flexicap .flexicap-inner-content {    
     width: 100% !important;
-    /* opacity: unset !important; */
 }
 
 .why-flexicap .flexicap-inner-content .flexicap-subinner-0 {
@@ -52,14 +45,7 @@
     display: flex;
 }
 
-/* .why-flexicap .flexicap-inner-content .flexicap-subinner-0 .subinner-content {
-    margin: 0;
-    width: 100%;
-} */
-
 .why-flexicap .flexicap-inner-content .flexicap-subinner-1 {
-    /* max-width: 68.29%; */
-    /* width: 100%; */
     padding-top: 24px;
 }
 
@@ -84,7 +70,6 @@
     justify-content: end;
     align-items: center;
     height: 486px;
-    /* overflow: hidden; */
 }
 
 .why-flexicap-wrapper .why-flexicap {
@@ -99,7 +84,6 @@
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    /* padding-right: 22px; */
 }
 
 .why-flexicap-wrapper .swiper-pagination .subinner-content.swiper-pagination-bullet {

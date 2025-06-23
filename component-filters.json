@@ -50,7 +50,9 @@
       "flexicap-fund-modal",
       "why-flexicap",
       "flexicap-tab",
-      "poona-fincorp-blogs"
+      "poona-fincorp-blogs",
+      "idfc-banner-bg",
+      "idfc-banner-content"
     ]
   },
   {
@@ -204,6 +206,12 @@
     "id": "poona-fincorp-blogs",
     "components":[
       "poona-fincorp-blogs-item"
+    ]
+  },
+  {
+    "id": "idfc-banner-bg",
+    "components":[
+      "idfc-banner-img"
     ]
   }
   

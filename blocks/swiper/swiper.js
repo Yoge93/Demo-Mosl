@@ -65,7 +65,8 @@ export default function decorate(block) {
         objConfig['spaceBetween'] = 30;
       }
     }
-    SwipperText(block, objConfig)
+    SwipperText(block, objConfig);
+    // JSON.stringify(objConfig) !== "{}"? SwipperText(block, objConfig) : ""
   }
 
   // Call it on load
