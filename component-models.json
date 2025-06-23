@@ -1265,7 +1265,8 @@
         "name": "deskImagepath",
         "value": "",
         "label": "Desktop Image Source",
-        "valueType": "string"
+        "valueType": "string",
+        "rootPath": "/content/dam/DemoMosl"
       },
       {
         "component": "text",
@@ -1279,7 +1280,8 @@
         "name": "mobImagepath",
         "value": "",
         "label": "Mobile Image Source",
-        "valueType": "string"
+        "valueType": "string",
+        "rootPath": "/content/dam/DemoMosl"
       },
       {
         "component": "text",
