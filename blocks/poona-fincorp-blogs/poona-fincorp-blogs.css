@@ -101,6 +101,12 @@
         padding-bottom: 0;
     }
 
+    .blogs-content .blog-item-1 {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
     .poona-fincorp-blogs .blogs-content .blog-item-2 {
         max-width: 100%;
     }
